@@ -34,18 +34,18 @@ function ExploreCard({ title, image, link }) {
 function ExploreSection() {
     const projects = [
         {
-            title: 'Vallée Lithium Project',
-            image: '/images/image1.jpg',
+            title: 'Discover The Company',
+            image: '/images/discoverCompany.png',
             link: '#',
         },
         {
             title: 'Meet the Team',
-            image: '/images/image1.jpg',
+            image: '/images/meetTeam.png',
             link: '#',
         },
         {
-            title: 'Preissac-Lacorne Project',
-            image: '/images/image1.jpg',
+            title: 'Investor Information',
+            image: '/images/investor.png',
             link: '#',
         },
     ];

@@ -68,7 +68,7 @@ const NewsInnerPage = () => {
         <div>
             <CustomNavbar />
             <section className="news-inner-page">
-                <section className="news-banner text-center text-white">
+                <section className="news-banner text-center text-white" style={{ backgroundImage: "url('/images/newas-banner.jpeg')" }}>
                     <Container>
                         {newsItem ? (
                             <>
