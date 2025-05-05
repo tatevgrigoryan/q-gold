@@ -33,9 +33,9 @@ function HeroSection() {
                                 className="hero-slide"
                                 style={{ height: '70vh', background: `url(${imageUrl}) center/cover no-repeat` }}
                             >
-                                <Container className="d-flex flex-column justify-content-center align-items-center h-100 text-white text-center">
+                                {/*<Container className="d-flex flex-column justify-content-center align-items-center h-100 text-white text-center">
                                     <h2 className={`animate__animated ${index === idx ? 'animate__slideInUp' : ''}`}>{title}</h2>
-                                </Container>
+                                </Container>*/}
                             </div>
                         </Carousel.Item>
                     );
