@@ -7,7 +7,6 @@ function ExploreCard({ title, image, link }) {
         triggerOnce: true,
         threshold: 0.5,
     });
-
     return (
         <Col
             ref={ref}
@@ -41,7 +40,7 @@ function ExploreSection() {
         {
             title: 'Meet the Team',
             image: '/images/meetTeam.png',
-            link: '#',
+            link: '/company#team-member',
         },
         {
             title: 'Investor Information',

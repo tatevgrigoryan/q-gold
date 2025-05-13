@@ -8,7 +8,22 @@ function AboutSection() {
                 <Col>
                     <h3>About Us</h3>
                     <p>We are committed to creating a better world by investing in clean technologies and sustainable resources.
-                        Our mission is to lead the way in the lithium industry with innovation and responsibility.</p>
+                        Our mission is to lead the way in the lithium industry with innovation and responsibility.
+                        We are committed to creating a better world by investing in clean technologies and sustainable resources.
+                        Our mission is to lead the way in the lithium industry with innovation and responsibility.
+                        We are committed to creating a better world by investing in clean technologies and sustainable resources.
+                        Our mission is to lead the way in the lithium industry with innovation and responsibility.
+                        We are committed to creating a better world by investing in clean technologies and sustainable resources.
+                        Our mission is to lead the way in the lithium industry with innovation and responsibility.
+                        We are committed to creating a better world by investing in clean technologies and sustainable resources.
+                        Our mission is to lead the way in the lithium industry with innovation and responsibility.
+                        We are committed to creating a better world by investing in clean technologies and sustainable resources.
+                        Our mission is to lead the way in the lithium industry with innovation and responsibility.
+                        We are committed to creating a better world by investing in clean technologies and sustainable resources.
+                        Our mission is to lead the way in the lithium industry with innovation and responsibility.
+                        We are committed to creating a better world by investing in clean technologies and sustainable resources.
+                        Our mission is to lead the way in the lithium industry with innovation and responsibility.
+                    </p>
                 </Col>
             </Container>
         </div>

@@ -12,7 +12,7 @@ function CustomNavbar() {
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="ms-auto">
                         <Nav.Link href="#about">About</Nav.Link>
-                        <Nav.Link href="#company">Company</Nav.Link>
+                        <Nav.Link href="/company">Company</Nav.Link>
 
                         <NavDropdown title="Projects" id="projects-dropdown" className="hover-dropdown">
                             <NavDropdown.Item href="#project1">Project1</NavDropdown.Item>
@@ -20,9 +20,9 @@ function CustomNavbar() {
                             <NavDropdown.Item href="#project3">Project3</NavDropdown.Item>
                         </NavDropdown>
 
-                        <Nav.Link href="#investors">Investors</Nav.Link>
-                        <Nav.Link href="#news">News</Nav.Link>
-                        <Nav.Link href="#contact">Contact</Nav.Link>
+                        <Nav.Link href="/investors">Investors</Nav.Link>
+                        <Nav.Link href="/news">News</Nav.Link>
+                        <Nav.Link href="/contact">Contact</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Container>
