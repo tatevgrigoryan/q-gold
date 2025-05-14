@@ -1,3 +1,30 @@
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
+iframe {
+  display: block;
+}
+
+table {
+  width: 100%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+table, th, td {
+  border: 1px solid #595959;
+  padding: 5px 10px;
+}
+
+table tr td:first-child {
+  font-weight: bold;
+}
+
+.small-img {
+  max-width: 250px;
+}
+
 h1, h2, h3 {
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
@@ -9,20 +36,21 @@ h2 {
 }
 
 h3 {
+  position: relative;
+  display: inline-block;
+  margin-bottom: 1rem;
   font-size: 32px;
   color: #595959;
   text-transform: uppercase;
-  position: relative;
   padding-bottom: 20px;
 }
 h3:after {
-  color: #c59b03;
+  color: #d2b521;
   content: "";
   display: block;
-  position: absolute;
-  width: 120px;
-  background-color: #c59b03;
+  background-color: #d2b521;
   height: 4px;
+  margin-top: 5px;
 }
 
 h4 {
@@ -38,7 +66,7 @@ h5 {
 .navbar {
   font-family: "Montserrat", sans-serif;
   background-color: #0b1c3b;
-  border-bottom: 2px solid #C59B03;
+  border-bottom: 2px solid #d2b521;
 }
 .navbar .logo {
   max-width: 75px;
@@ -48,7 +76,7 @@ h5 {
   color: #ffffff;
 }
 .navbar .navbar-nav a:hover {
-  color: #c59b03;
+  color: #d2b521;
 }
 .navbar .dropdown-menu {
   background-color: #0b1c3b;
@@ -64,7 +92,7 @@ h5 {
   color: #ffffff;
 }
 .navbar .navbar-nav .nav-link.active {
-  color: #c59b03;
+  color: #d2b521;
 }
 
 .hero-section {
@@ -77,8 +105,13 @@ h5 {
   color: #595959;
 }
 
+.hero-slide {
+  height: 90vh !important;
+  background-position: bottom !important;
+}
+
 .about-section {
-  min-height: 350px;
+  min-height: 600px;
 }
 
 .projects-section, .explore-section {
@@ -129,7 +162,7 @@ h5 {
   transition: all 0.3s ease;
 }
 .projects-section .read-more-btn:hover, .explore-section .read-more-btn:hover {
-  color: #c59b03;
+  color: #d2b521;
   transform: translateX(5px);
 }
 .projects-section .arrow-icon, .explore-section .arrow-icon {
@@ -163,7 +196,7 @@ h5 {
   position: relative;
   background-color: white;
   padding: 30px 20px 50px 20px;
-  border-bottom: 2px solid #c59b03;
+  border-bottom: 2px solid #d2b521;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease;
   min-height: 240px;
@@ -200,10 +233,10 @@ h5 {
   position: absolute;
   bottom: -25px;
   display: inline-flex;
-  border: 2px solid #c59b03;
+  border: 2px solid #d2b521;
   align-items: center;
   background: #ffffff;
-  color: #c59b03;
+  color: #d2b521;
   padding: 10px 20px;
   font-weight: 600;
   text-decoration: none;
@@ -211,7 +244,7 @@ h5 {
   transition: all 0.3s ease;
 }
 .news-section .read-more-btn:hover {
-  background-color: #c59b03;
+  background-color: #d2b521;
   color: #fff;
 }
 .news-section .arrow-icon {
@@ -249,13 +282,27 @@ h5 {
 }
 .journal-section .fas {
   font-size: 40px;
-  color: #c59b03;
+  color: #d2b521;
 }
 .journal-section .fas.fa-arrow-circle-right {
   padding-right: 10px;
 }
 .journal-section .fas.fa-arrow-circle-left {
   padding-left: 10px;
+}
+
+.project-inner-page .project-banner {
+  background-color: #8d8c8c;
+  padding: 10% 20px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 30px;
+}
+.project-inner-page .project-banner h2 {
+  font-weight: 900;
+  font-size: 90px;
+  line-height: 95px;
 }
 
 .news-inner-page {
@@ -270,9 +317,9 @@ h5 {
   margin-bottom: 30px;
 }
 .news-inner-page .news-banner h2 {
-  font-weight: bolder;
-  font-size: 80px;
-  line-height: 80px;
+  font-weight: 900;
+  font-size: 90px;
+  line-height: 95px;
 }
 .news-inner-page .news-inner-wrapper {
   border-right: 2px solid #8d8c8c;
@@ -282,7 +329,7 @@ h5 {
   padding-left: 30px;
 }
 .news-inner-page .news-inner-latest-wrapper .latest-news-sidebar li {
-  border: 2px solid #c59b03;
+  border: 2px solid #d2b521;
   padding: 20px;
   position: relative;
   margin-bottom: 30px;
@@ -290,10 +337,10 @@ h5 {
 .news-inner-page .news-inner-latest-wrapper .latest-news-sidebar li .read-more-btn {
   position: absolute;
   display: inline-flex;
-  border: 2px solid #c59b03;
+  border: 2px solid #d2b521;
   align-items: center;
   background: #ffffff;
-  color: #c59b03;
+  color: #d2b521;
   padding: 6px 15px;
   font-weight: 600;
   text-decoration: none;
@@ -301,7 +348,7 @@ h5 {
   transition: all 0.3s ease;
 }
 .news-inner-page .news-inner-latest-wrapper .latest-news-sidebar li .read-more-btn:hover {
-  background-color: #c59b03;
+  background-color: #d2b521;
   color: #fff;
 }
 .news-inner-page .news-inner-latest-wrapper .latest-news-sidebar li .arrow-icon {
@@ -330,18 +377,6 @@ h5 {
   color: #001d3d;
   margin-top: 20px;
 }
-.news-inner-page .news-content table {
-  width: 100%;
-  margin-top: 30px;
-  margin-bottom: 30px;
-}
-.news-inner-page .news-content table, .news-inner-page .news-content th, .news-inner-page .news-content td {
-  border: 1px solid #595959;
-  padding: 5px 10px;
-}
-.news-inner-page .news-content table tr td:first-child {
-  font-weight: bold;
-}
 
 .news-page-banner {
   background-color: #8d8c8c;
@@ -360,8 +395,9 @@ h5 {
   margin-bottom: 30px;
 }
 .company-page-banner h2 {
-  font-weight: bolder;
-  font-size: 95px;
+  font-weight: 900;
+  font-size: 90px;
+  line-height: 95px;
 }
 
 .team-member-section {
@@ -382,7 +418,7 @@ h5 {
 .team-member-section .team-item .name {
   text-align: center;
   font-weight: bold;
-  color: #C59B03;
+  color: #d2b521;
   margin: 0 auto;
   padding-bottom: 10px;
   padding-top: 20px;
@@ -407,7 +443,12 @@ h5 {
   color: #595959;
 }
 .contact-page-content .link {
-  color: #c59b03;
+  color: #d2b521;
+}
+.contact-page-content h2 {
+  font-weight: 900;
+  font-size: 90px;
+  line-height: 95px;
 }
 
 .contact-form {
@@ -463,16 +504,16 @@ h5 {
 
 button {
   background-color: transparent;
-  color: #c59b03;
+  color: #d2b521;
   padding: 15px 30px;
   font-weight: bold;
-  border: 2px solid #c59b03;
+  border: 2px solid #d2b521;
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
 
 button:hover {
-  background-color: #c59b03;
+  background-color: #d2b521;
   color: #fff;
 }
 

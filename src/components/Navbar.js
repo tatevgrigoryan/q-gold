@@ -11,13 +11,12 @@ function CustomNavbar() {
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="ms-auto">
-                        <Nav.Link href="#about">About</Nav.Link>
+                        <Nav.Link href="/#about">About</Nav.Link>
                         <Nav.Link href="/company">Company</Nav.Link>
 
                         <NavDropdown title="Projects" id="projects-dropdown" className="hover-dropdown">
-                            <NavDropdown.Item href="#project1">Project1</NavDropdown.Item>
-                            <NavDropdown.Item href="#project2">Project2</NavDropdown.Item>
-                            <NavDropdown.Item href="#project3">Project3</NavDropdown.Item>
+                            <NavDropdown.Item href="/project/mine-centre">Mine Centre, Ontario</NavDropdown.Item>
+                            <NavDropdown.Item href="/project/quartz-mountain">Quartz Mountain, Oregon</NavDropdown.Item>
                         </NavDropdown>
 
                         <Nav.Link href="/investors">Investors</Nav.Link>

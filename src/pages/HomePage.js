@@ -17,13 +17,14 @@ function App() {
         if (hash) {
             const element = document.querySelector(hash);
             if (element) {
-
-                const y = element.getBoundingClientRect().top + window.pageYOffset ;
+                const yOffset = 1000; // scroll 200px higher
+                const y = element.getBoundingClientRect().top + window.pageYOffset + yOffset;
 
                 window.scrollTo({ top: y, behavior: 'smooth' });
             }
         }
     }, [hash]);
+
 
     return (
         <>
