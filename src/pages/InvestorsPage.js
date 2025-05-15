@@ -7,32 +7,19 @@ import TeamMembers from "../components/TeamMembers";
 import { useLocation } from 'react-router-dom';
 
 const InvestorsPage = () => {
-    const { hash } = useLocation();
-
-    useEffect(() => {
-        if (hash) {
-            const element = document.querySelector(hash);
-            if (element) {
-
-                const y = element.getBoundingClientRect().top + window.pageYOffset ;
-
-                window.scrollTo({ top: y, behavior: 'smooth' });
-            }
-        }
-    }, [hash]);
 
 
     return (
         <div>
             <CustomNavbar/>
-            <section className="company-page">
-                <section className="company-page-banner text-center text-white"
+            <section className="investor-page">
+                <section className="investor-page-banner text-center text-white"
                          style={{backgroundImage: "url('/images/newas-banner.jpeg')"}}>
                         <h2>Investors</h2>
                 </section>
-                <section className="company-page-content">
+                <section className="investor-page-content">
                    <Container>
-                       <h3 className="pt-2">INVESTMENT HIGHLIGHTS</h3>
+                       <h3 className="pt-5">INVESTMENT HIGHLIGHTS</h3>
                        <p>Content Here...</p>
 
                        <h4>OVERVIEW</h4>
