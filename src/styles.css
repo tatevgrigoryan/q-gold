@@ -21,8 +21,20 @@ table tr td:first-child {
   font-weight: bold;
 }
 
+img {
+  width: 100%;
+}
+
+.center {
+  text-align: center;
+}
+
 .small-img {
   max-width: 250px;
+}
+
+.middle-img {
+  max-width: 700px;
 }
 
 h1, h2, h3 {
@@ -316,7 +328,7 @@ h5 {
 
 .project-inner-page .project-banner {
   background-color: #8d8c8c;
-  padding: 10% 20px;
+  padding: 15% 20px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -333,7 +345,7 @@ h5 {
 }
 .news-inner-page .news-banner {
   background-color: #8d8c8c;
-  padding: 10% 20px;
+  padding: 15% 20px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -403,7 +415,7 @@ h5 {
 
 .news-page-banner {
   background-color: #8d8c8c;
-  padding: 10% 20px;
+  padding: 15% 20px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -411,7 +423,7 @@ h5 {
 
 .company-page-banner {
   background-color: #8d8c8c;
-  padding: 10% 20px;
+  padding: 15% 20px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -429,7 +441,7 @@ h5 {
 
 .investor-page-banner {
   background-color: #8d8c8c;
-  padding: 10% 20px;
+  padding: 15% 20px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -454,7 +466,7 @@ h5 {
   margin-bottom: 40px;
 }
 .team-member-section .team-item img {
-  max-width: 100px;
+  max-width: 88px;
   margin: 0 auto;
   text-align: center;
   display: block;
@@ -464,17 +476,21 @@ h5 {
   font-weight: bold;
   color: #d2b521;
   margin: 0 auto;
-  padding-bottom: 10px;
-  padding-top: 20px;
+  padding-bottom: 5px;
+  padding-top: 15px;
 }
 .team-member-section .team-item .position {
   text-align: center;
   font-weight: bold;
+  font-size: 16px;
+}
+.team-member-section .team-item p {
+  line-height: 30px;
 }
 
 .contact-page-banner {
   background-color: #8d8c8c;
-  padding: 10% 20px;
+  padding: 15% 20px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

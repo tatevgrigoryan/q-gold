@@ -14,7 +14,7 @@ const InvestorsPage = () => {
             <CustomNavbar/>
             <section className="investor-page">
                 <section className="investor-page-banner text-center text-white"
-                         style={{backgroundImage: "url('/images/newas-banner.jpeg')"}}>
+                         style={{backgroundImage: "url('/images/investor-banner.png')"}}>
                         <h2>Investors</h2>
                 </section>
                 <section className="investor-page-content">

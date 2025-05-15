@@ -5,7 +5,7 @@ function Footer() {
     return (
         <footer className="footer text-white py-3">
             <Container className="text-center">
-                Copyright  © {new Date().getFullYear()}  Q-Gold Resources, All Rights Reserved
+                  © {new Date().getFullYear()}  Q-Gold Resources, All Rights Reserved
             </Container>
         </footer>
     );

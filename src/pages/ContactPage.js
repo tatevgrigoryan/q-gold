@@ -43,7 +43,7 @@ const ContactPage = () => {
                                         5 Hazelton Avenue, Suite 400, <br/>
                                         Toronto, Ontario, M5R 2E1, Canada <br/>
                                     </p>
-                                    <a className="link" href="mailto:info@consolidatedlithium.com">info@consolidatedlithium.com</a>
+                                    <a className="link" href="mailto:info@mail.com">info@mail.com</a>
                                 </div>
                             </Col>
                             <Col md={6} className="p-2">

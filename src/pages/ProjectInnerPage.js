@@ -38,7 +38,7 @@ const ProjectInnerPage = () => {
                         </p>
                         <iframe
                             src="https://www.google.com/maps/d/embed?mid=1YLCMiQiVAmC0aCe_K4arNPiz1hLFMzE&ehbc=2E312F"
-                            width="640" height="480"></iframe>
+                            width="700" height="480"></iframe>
 
                         <table>
                             <thead>
