@@ -1,10 +1,14 @@
 import React, { useEffect, useState } from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import axios from 'axios';
+import {useInView} from "react-intersection-observer";
 
 function TeamMembers() {
     const [teamMembers, setTeamMembers] = useState([]);
-
+    const { ref, inView } = useInView({
+        triggerOnce: true,
+        threshold: 0.2,
+    });
     useEffect(() => {
         const fetchTeamMembers = async () => {
             try {
@@ -41,9 +45,9 @@ function TeamMembers() {
     }, []);
 
     return (
-        <section className="team-member-section py-5" id="team-member">
-            <Container>
-                <h3 className="mb-5">Leadership Team</h3>
+        <section ref={ref} className="team-member-section py-5"  id="team-member">
+            <Container ref={ref} className={`animate  ${inView ? 'slide-up' : ''}`} >
+                <h3 className="mb-5">Management Team</h3>
                 <Row>
                     {teamMembers.length === 0 && (
                         <p>Loading team members...</p>

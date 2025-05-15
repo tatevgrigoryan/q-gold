@@ -39,7 +39,7 @@ const ContactPage = () => {
                                     <h3>GET IN TOUCH</h3>
                                     <p>You can reach us using the details below or you can use the form to send us a message.</p>
                                     <p>
-                                        Consolidated Lithium Metals Inc., <br/>
+                                        Q Gold Resources Ltd Lithium Metals Inc., <br/>
                                         5 Hazelton Avenue, Suite 400, <br/>
                                         Toronto, Ontario, M5R 2E1, Canada <br/>
                                     </p>

@@ -63,6 +63,28 @@ h5 {
   font-size: 18px;
 }
 
+.animate.slide-up {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.animate {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: all 0.6s ease-out;
+}
+
+.animate-about {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: all 0.6s ease-out;
+}
+
+.animate-about.slide-up {
+  opacity: 1;
+  transform: translateY(0);
+}
+
 .navbar {
   font-family: "Montserrat", sans-serif;
   background-color: #0b1c3b;
@@ -103,6 +125,7 @@ h5 {
   background-size: cover;
   background-position: center;
   color: #595959;
+  height: 90vh;
 }
 
 .hero-slide {
@@ -111,7 +134,7 @@ h5 {
 }
 
 .about-section {
-  min-height: 600px;
+  min-height: 300px;
 }
 
 .projects-section, .explore-section {
@@ -178,7 +201,7 @@ h5 {
   transform: translateY(100px);
   transition: opacity 0.6s ease-out, transform 0.6s ease-out;
 }
-.projects-section .project-card-col.slide-up, .explore-section .project-card-col.slide-up {
+.projects-section .slide-up, .explore-section .slide-up {
   opacity: 1;
   transform: translateY(0);
 }
@@ -392,17 +415,25 @@ h5 {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  margin-bottom: 30px;
 }
 .company-page-banner h2 {
   font-weight: 900;
   font-size: 90px;
   line-height: 95px;
 }
+.company-page-content {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: all 0.6s ease-out;
+}
+
+.company-page-content.slide-up {
+  opacity: 1;
+  transform: translateY(0);
+}
 
 .team-member-section {
   background-color: #e4e4e4;
-  margin-top: 30px;
   min-height: 650px;
 }
 .team-member-section .team-item {

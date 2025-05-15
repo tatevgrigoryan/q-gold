@@ -11,7 +11,7 @@ function CustomNavbar() {
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="ms-auto">
-                        <Nav.Link href="/#about">About</Nav.Link>
+                        <Nav.Link href="/">Home</Nav.Link>
                         <Nav.Link href="/company">Company</Nav.Link>
 
                         <NavDropdown title="Projects" id="projects-dropdown" className="hover-dropdown">
