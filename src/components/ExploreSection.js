@@ -35,7 +35,7 @@ function ExploreSection() {
         {
             title: 'Discover The Company',
             image: '/images/discoverCompany.png',
-            link: '#',
+            link: '/company',
         },
         {
             title: 'Meet the Team',
@@ -45,7 +45,7 @@ function ExploreSection() {
         {
             title: 'Investor Information',
             image: '/images/investor.png',
-            link: '#',
+            link: '/investors',
         },
     ];
 

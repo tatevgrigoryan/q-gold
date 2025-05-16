@@ -15,7 +15,7 @@ const ProjectInnerPage2 = () => {
             <section className="project-inner-page">
 
                 <section className="project-banner text-center text-white"
-                         style={{backgroundImage: "url('/images/newas-banner.jpeg')"}}>
+                         style={{backgroundImage: "url('/images/projects-banner.png')"}}>
                     <Container>
                         <h2 className="fw-bold">Quartz Mountain, Oregon</h2>
                     </Container>

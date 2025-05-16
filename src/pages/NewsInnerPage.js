@@ -68,23 +68,13 @@ const NewsInnerPage = () => {
         <div>
             <CustomNavbar />
             <section className="news-inner-page">
-                <section className="news-banner text-center text-white" style={{ backgroundImage: "url('/images/newas-banner.jpeg')" }}>
-                    <Container>
-                        {newsItem ? (
-                            <>
-                                <h2 className="fw-bold">{newsItem.title}</h2>
-                                <p className="mt-3">{newsItem.date}</p>
-                            </>
-                        ) : (
-                            <h2>Loading...</h2>
-                        )}
-                    </Container>
-                </section>
+
                 <Container>
                     <Row>
                         <Col md={8} className="news-inner-wrapper">
                             {newsItem ? (
                                 <>
+                                    <h3 className="fw-bold">{newsItem.title}</h3>
                                     <p className="text-muted">{newsItem.date} | {newsItem.category}</p>
                                     <div className="news-content" dangerouslySetInnerHTML={{ __html: newsItem.content }} /></>
                             ) : (

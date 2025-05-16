@@ -4,6 +4,9 @@
 
 iframe {
   display: block;
+  @media only screen and (max-width: 600px) {
+   width: 100%;
+  }
 }
 table {
   width: 100%;
@@ -16,6 +19,9 @@ table, th, td {
 }
 table tr td:first-child {
   font-weight: bold;
+}
+a {
+  word-break: break-word;
 }
 img {
   width: 100%;
@@ -38,6 +44,9 @@ h1, h2, h3 {
 h2 {
   font-size: 100px;
   color: #fff;
+  @media only screen and (max-width: 600px) {
+    font-size: 40px;
+  }
 }
 
 h3 {
@@ -88,6 +97,14 @@ h5 {
   font-family: "Montserrat", sans-serif;
   background-color: #0b1c3b;
   border-bottom: 2px solid #d2b521;
+  .navbar-toggler-icon {
+    color: #ffffff !important;
+
+  }
+  .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='%23ffffff' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+  }
+
 
   .logo {
     max-width: 75px;
@@ -369,11 +386,15 @@ h5 {
       font-weight: 900;
       font-size: 90px;
       line-height: 95px;
+      @media only screen and (max-width: 600px) {
+        font-size: 40px;
+      }
     }
   }
 }
 .news-inner-page {
   margin-bottom: 30px;
+  padding-top: 60px;
   .news-banner {
     background-color: #8d8c8c;
     padding: 15% 20px;
@@ -385,6 +406,9 @@ h5 {
       font-weight: 900;
       font-size: 90px;
       line-height: 95px;
+      @media only screen and (max-width: 600px) {
+        font-size: 40px;
+      }
     }
   }
 
@@ -479,6 +503,9 @@ h5 {
       font-weight: 900;
       font-size: 90px;
       line-height: 95px;
+      @media only screen and (max-width: 600px) {
+        font-size: 40px;
+      }
 
     }
   }
