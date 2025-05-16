@@ -15,7 +15,7 @@ const ProjectInnerPage = () => {
             <section className="project-inner-page">
 
                 <section className="project-banner text-center text-white"
-                         style={{backgroundImage: "url('/images/projects-banner.png')"}}>
+                         style={{backgroundImage: "url('/images/banner1.png')"}}>
                     <Container>
 
 

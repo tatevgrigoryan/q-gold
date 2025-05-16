@@ -28,7 +28,7 @@ const ContactPage = () => {
             <CustomNavbar/>
             <section className="contact-page">
                 <section className="contact-page-banner text-center text-white"
-                         style={{backgroundImage: "url('/images/newas-banner.jpeg')"}}>
+                         style={{backgroundImage: "url('/images/contact-banner.png')"}}>
                         <h2>Contact</h2>
                 </section>
                 <section className="contact-page-content">
