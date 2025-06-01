@@ -5,6 +5,7 @@ import {useParams} from 'react-router-dom';
 import Footer from "../components/Footer";
 import TeamMembers from "../components/TeamMembers";
 import { useLocation } from 'react-router-dom';
+import StockChart from "../components/StockChart";
 
 const InvestorsPage = () => {
 
@@ -20,9 +21,10 @@ const InvestorsPage = () => {
                 <section className="investor-page-content">
                    <Container>
                        <h3 className="pt-5">INVESTMENT HIGHLIGHTS</h3>
-                       <p>Content Here...</p>
 
-                       <h4>OVERVIEW</h4>
+                       <StockChart/>
+
+                       <h4></h4>
 
 
 

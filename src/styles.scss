@@ -488,6 +488,7 @@ h5 {
   }
 }
 
+
 .company-page {
   &-banner {
     padding: 15% 20px;
@@ -522,6 +523,9 @@ h5 {
       line-height: 95px;
 
     }
+  }
+  iframe {
+    min-height: 600px;
   }
 }
 .company-page-content.slide-up {

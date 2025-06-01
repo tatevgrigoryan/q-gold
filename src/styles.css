@@ -481,6 +481,9 @@ h5 {
   font-size: 90px;
   line-height: 95px;
 }
+.investor-page iframe {
+  min-height: 600px;
+}
 
 .company-page-content.slide-up {
   opacity: 1;
