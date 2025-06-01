@@ -11,7 +11,7 @@ function HeroSection() {
     };
 
     useEffect(() => {
-        axios.get('http://localhost:1337/api/sliders?populate=image')
+        axios.get(`${process.env.REACT_APP_API_URL}/api/sliders?populate=image`)
             .then((response) => {
                 setSlides(response.data.data);
             })

@@ -11,7 +11,7 @@ function TeamMembers() {
     useEffect(() => {
         const fetchTeamMembers = async () => {
             try {
-                const res = await axios.get('http://localhost:1337/api/team-members?populate=*');
+                const res = await axios.get(`${process.env.REACT_APP_API_URL}/api/team-members?populate=*`);
                 const mappedMembers = res.data.data.map((item) => {
                     const { attributes, Name, Position, Description, image } = item;
 

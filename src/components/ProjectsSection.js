@@ -14,7 +14,7 @@ function ProjectsSection() {
     useEffect(() => {
         const fetchProjects = async () => {
             try {
-                const res = await axios.get('http://localhost:1337/api/projects?populate=image');
+                const res = await axios.get(`${process.env.REACT_APP_API_URL}/api/projects?populate=image`);
 
                 const mappedProjects = res.data.data.map((item) => {
 

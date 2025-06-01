@@ -14,7 +14,7 @@ const ProjectInnerPage = () => {
     useEffect(() => {
         const fetchProjectItem = async () => {
             try {
-                const res2 = await axios.get(`http://localhost:1337/api/projects?filters[Link][$eq]=${Link}&populate=*`);
+                const res2 = await axios.get(`${process.env.REACT_APP_API_URL}/api/projects?filters[Link][$eq]=${Link}&populate=*`);
                 if (res2.data && res2.data.data && res2.data.data.length > 0) {
                     const inner_item = res2.data.data[0];  // Get the first item from the response
                     const attributes = inner_item.attributes || {};
