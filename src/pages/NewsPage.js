@@ -11,7 +11,7 @@ function NewsPage() {
     useEffect(() => {
         const fetchNews = async () => {
             try {
-                const res = await axios.get(`${process.env.REACT_APP_API_URL}/api/news?sort=createdAt:desc&populate=*`);
+                const res = await axios.get(`${process.env.REACT_APP_BACKEND_API_URL}/api/news?sort=createdAt:desc&populate=*`);
                 const mappedNews = res.data.data.map((item) => {
                     console.log(item);
                     return {

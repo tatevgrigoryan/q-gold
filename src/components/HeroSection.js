@@ -11,7 +11,7 @@ function HeroSection() {
     };
 
     useEffect(() => {
-        axios.get(`${process.env.REACT_APP_API_URL}/api/sliders?populate=image`)
+        axios.get(`${process.env.REACT_APP_BACKEND_API_URL}/api/sliders?populate=image`)
             .then((response) => {
                 setSlides(response.data.data);
             })
@@ -26,7 +26,7 @@ function HeroSection() {
                 <Carousel fade activeIndex={index} onSelect={handleSelect} controls indicators interval={4000}>
                     {slides.map((slide, idx) => {
                         const { title, image } = slide;
-                        const imageUrl = `http://localhost:1337${image?.url}`;
+                        const imageUrl = `${process.env.REACT_APP_BACKEND_API_URL}${image?.url}`;
 
                         return (
                             <Carousel.Item key={slide.id}>

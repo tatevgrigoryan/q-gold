@@ -14,7 +14,7 @@ const NewsInnerPage = () => {
     useEffect(() => {
         const fetchNewsItem = async () => {
             try {
-                const res2 = await axios.get(`${process.env.REACT_APP_API_URL}/api/news?filters[id][$eq]=${slug}&populate=*`);
+                const res2 = await axios.get(`${process.env.REACT_APP_BACKEND_API_URL}/api/news?filters[id][$eq]=${slug}&populate=*`);
                 if (res2.data && res2.data.data && res2.data.data.length > 0) {
                     const inner_item = res2.data.data[0];  // Get the first item from the response
                     const attributes = inner_item.attributes || {};
@@ -42,7 +42,7 @@ const NewsInnerPage = () => {
     useEffect(() => {
         const fetchLatestNews = async () => {
             try {
-                const res = await axios.get('${process.env.REACT_APP_API_URL}/api/news?sort=createdAt:desc&pagination[limit]=4&populate=*');
+                const res = await axios.get('${process.env.REACT_APP_BACKEND_API_URL}/api/news?sort=createdAt:desc&pagination[limit]=4&populate=*');
                 if (res.data && res.data.data) {
                     const latest = res.data.data.map(item => {
                         const attr = item.attributes || {};

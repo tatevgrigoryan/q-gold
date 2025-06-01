@@ -9,7 +9,7 @@ function NewsSection() {
     useEffect(() => {
         const fetchNews = async () => {
             try {
-                const res = await axios.get(`${process.env.REACT_APP_API_URL}/api/news?sort=createdAt:desc&pagination[limit]=3&populate=*`);
+                const res = await axios.get(`${process.env.REACT_APP_BACKEND_API_URL}/api/news?sort=createdAt:desc&pagination[limit]=3&populate=*`);
 
                 // Log the response to check the structure
                 console.log(res.data.data);

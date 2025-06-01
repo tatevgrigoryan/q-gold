@@ -11,7 +11,7 @@ function TeamMembers() {
     useEffect(() => {
         const fetchTeamMembers = async () => {
             try {
-                const res = await axios.get(`${process.env.REACT_APP_API_URL}/api/team-members?populate=*`);
+                const res = await axios.get(`${process.env.REACT_APP_BACKEND_API_URL}/api/team-members?populate=*`);
                 const mappedMembers = res.data.data.map((item) => {
                     const { attributes, Name, Position, Description, image } = item;
 
@@ -20,7 +20,7 @@ function TeamMembers() {
                     const description = attributes ? attributes.Description : Description;
 
                     const imageUrl = image?.url
-                        ? `http://localhost:1337${image.url}`
+                        ? `${process.env.REACT_APP_BACKEND_API_URL}${image.url}`
                         : '/images/default.jpg';
 
                     return {

@@ -14,7 +14,7 @@ function ProjectsSection() {
     useEffect(() => {
         const fetchProjects = async () => {
             try {
-                const res = await axios.get(`${process.env.REACT_APP_API_URL}/api/projects?populate=image`);
+                const res = await axios.get(`${process.env.REACT_APP_BACKEND_API_URL}/api/projects?populate=image`);
 
                 const mappedProjects = res.data.data.map((item) => {
 
@@ -23,7 +23,7 @@ function ProjectsSection() {
                         title: item.Title, // Corrected field access
                         content: item.Content, // Corrected field access
                         imageUrl: item.image.url
-                            ? `http://localhost:1337${item.image.url}`
+                            ? `${process.env.REACT_APP_BACKEND_API_URL}${item.image.url}`
                             : '/images/default.jpg',
                         link: `/project/${item.Link}` // Use the slug for the link
                     };
