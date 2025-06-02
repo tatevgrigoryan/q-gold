@@ -73,6 +73,7 @@ h4 {
   margin: 20px 0;
 }
 h5 {
+  font-weight: bold;
   font-size: 18px;
 }
 .animate.slide-up {
@@ -524,8 +525,18 @@ h5 {
 
     }
   }
+  &-table {
+    padding-top: 90px;
+    tr, td {
+      padding: 6px;
+    }
+  }
   iframe {
     min-height: 600px;
+    padding-top: 30px;
+  }
+  ol li {
+    margin-bottom: 10px;
   }
 }
 .company-page-content.slide-up {
@@ -659,4 +670,10 @@ button:hover {
 
 .footer {
   background-color: #0b1c3b;
+  a {
+    color: #ffffff;
+  }
+}
+.i4ewOd-pzNkMb-r4nke-LS81yb.di8rgd-TEhSn.SfQLQb-fI6EEc {
+  display: none !important;
 }

@@ -37,7 +37,7 @@ function NewsPage() {
         <div  id="news">
             <CustomNavbar/>
             <section className="news-page-banner text-center text-white"
-                     style={{backgroundImage: "url('/images/banner3.png')"}}>
+                     style={{backgroundImage: "url('/images/newinner.png')"}}>
                 <h2>News</h2>
             </section>
             <section className="news-section py-5">
@@ -48,7 +48,7 @@ function NewsPage() {
                             <p>Loading latest news...</p>
                         )}
                         {newsItems.map((news, idx) => (
-                            <Col key={idx} md={4} className="mb-4">
+                            <Col key={idx} md={4} className="mb-5">
                                 <div className="news-card">
                                     <div className="news-card-body">
                                         <span className="news-category">{news.category}</span>

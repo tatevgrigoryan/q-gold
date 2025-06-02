@@ -86,6 +86,7 @@ h4 {
 }
 
 h5 {
+  font-weight: bold;
   font-size: 18px;
 }
 
@@ -481,8 +482,18 @@ h5 {
   font-size: 90px;
   line-height: 95px;
 }
+.investor-page-table {
+  padding-top: 90px;
+}
+.investor-page-table tr, .investor-page-table td {
+  padding: 6px;
+}
 .investor-page iframe {
   min-height: 600px;
+  padding-top: 30px;
+}
+.investor-page ol li {
+  margin-bottom: 10px;
 }
 
 .company-page-content.slide-up {
@@ -611,6 +622,13 @@ button:hover {
 
 .footer {
   background-color: #0b1c3b;
+}
+.footer a {
+  color: #ffffff;
+}
+
+.i4ewOd-pzNkMb-r4nke-LS81yb.di8rgd-TEhSn.SfQLQb-fI6EEc {
+  display: none !important;
 }
 
 /*# sourceMappingURL=styles.css.map */

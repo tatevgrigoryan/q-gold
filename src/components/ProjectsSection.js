@@ -17,7 +17,6 @@ function ProjectsSection() {
                 const res = await axios.get(`${process.env.REACT_APP_BACKEND_API_URL}/api/projects?populate=image`);
 
                 const mappedProjects = res.data.data.map((item) => {
-
                     return {
                         id: item.id,
                         title: item.Title, // Corrected field access

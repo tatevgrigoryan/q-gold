@@ -15,13 +15,12 @@ function CustomNavbar() {
                         <Nav.Link href="/company">Company</Nav.Link>
 
                         <NavDropdown title="Projects" id="projects-dropdown" className="hover-dropdown">
-                            <NavDropdown.Item href="/project/mine-centre">Mine Centre, Ontario</NavDropdown.Item>
-                            <NavDropdown.Item href="/project/quartz-mountain">Quartz Mountain, Oregon</NavDropdown.Item>
+                            <NavDropdown.Item href="/project/mine-centre">Mine Centre, Ontario, Canada</NavDropdown.Item>
+                            <NavDropdown.Item href="/project/quartz-mountain">Quartz Mountain, Oregon, USA</NavDropdown.Item>
                         </NavDropdown>
 
                         <Nav.Link href="/investors">Investors</Nav.Link>
-                        <Nav.Link href="/news">News</Nav.Link>
-                        <Nav.Link href="/contact">Contact</Nav.Link>
+                        <Nav.Link href="/news">News & Events</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Container>

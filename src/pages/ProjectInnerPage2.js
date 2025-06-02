@@ -17,7 +17,7 @@ const ProjectInnerPage2 = () => {
                 <section className="project-banner text-center text-white"
                          style={{backgroundImage: "url('/images/banner3.png')"}}>
                     <Container>
-                        <h2 className="fw-bold">Quartz Mountain, Oregon</h2>
+                        <h2 className="fw-bold">Quartz Mountain, Oregon USA</h2>
                     </Container>
                 </section>
                 <Container>
@@ -32,33 +32,210 @@ const ProjectInnerPage2 = () => {
                         </p>
                         <iframe
                             src="https://www.google.com/maps/d/embed?mid=1AI8bsEkfCFgIHB8kF02z3yTmOTBhubU&ehbc=2E312F"
-                            width="700" height="480"></iframe>
+                            width="100%" height="480"></iframe>
 
-                        <h3 className="mt-5">Critical components of Quartz Mine:</h3>
-                        <img className="middle-img" src="/images/quartz-main-img.jpeg" alt="image"/>
-                        <h4>Crone Hill</h4>
-                        <img className="small-img" src="/images/table1.png" alt="image"/>
-                        <h4>Quartz Butte</h4>
-                        <img className="small-img" src="/images/table2.png" alt="image"/>
-                        <h4>Angel’s Camp: Significant upside</h4>
-                        <img className="small-img" src="/images/table3.png" alt="image"/>
-                        <h4>Angel’s Camp: Significant upside</h4>
-                        <table>
+                        <h3 className="mt-5 pt-5">Critical components of Quartz Mine:</h3>
+                        <img className="middle-img" src="/images/image-quartz.png" alt="image"/>
+                        <h5 className="pt-5">Crone Hill:</h5>
+                        <h4 className="text-center pt-5">Quartz Mountain – Crone Hill – Mineral Resources<br/> Pit
+                            Constrained</h4>
+                        <table border="1" cellPadding="6" cellSpacing="0">
+
                             <thead>
                             <tr>
-                                <th className="center" colSpan="6" >Quartz Mountain- Angel's Camp - Prellminary "in situ" Mineral Resource</th>
-
+                                <th rowSpan="2">Cut-off (g/t Au)</th>
+                                <th colSpan="3" className="text-center">Measured</th>
+                                <th colSpan="3" className="text-center">Indicated</th>
                             </tr>
                             <tr>
-                                <th >text</th>
-
-                                <th>text</th>
-                                <th >text</th>
-                                <th >text</th>
-                                <th >text</th>
-                                <th >text</th>
+                                <th>Tonnes<br/>(000's)</th>
+                                <th>Au Grade<br/>(g/t)</th>
+                                <th>Au Content<br/>(ounces)</th>
+                                <th>Tonnes<br/>(000's)</th>
+                                <th>Au Grade<br/>(g/t)</th>
+                                <th>Au Content<br/>(ounces)</th>
                             </tr>
-
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td>0.21 (oxide + mix)</td>
+                                <td>64</td>
+                                <td>0.72</td>
+                                <td>1,477</td>
+                                <td>2,090</td>
+                                <td>0.66</td>
+                                <td>44,349</td>
+                            </tr>
+                            <tr>
+                                <td>0.60 (sulphide)</td>
+                                <td>47</td>
+                                <td>1.04</td>
+                                <td>1,576</td>
+                                <td>4,056</td>
+                                <td>1.01</td>
+                                <td>132,231</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Total</strong></td>
+                                <td><strong>111</strong></td>
+                                <td><strong>0.86</strong></td>
+                                <td><strong>3,053</strong></td>
+                                <td><strong>6,146</strong></td>
+                                <td><strong>0.89</strong></td>
+                                <td><strong>176,580</strong></td>
+                            </tr>
+                            </tbody>
+                            <thead>
+                            <tr>
+                                <th rowSpan="2">Cut-off (g/t Au)</th>
+                                <th colSpan="3" className="text-center">Measured and Indicated</th>
+                                <th colSpan="3" className="text-center">Inferred</th>
+                            </tr>
+                            <tr>
+                                <th>Tonnes<br/>(000's)</th>
+                                <th>Au Grade<br/>(g/t)</th>
+                                <th>Au Content<br/>(ounces)</th>
+                                <th>Tonnes<br/>(000's)</th>
+                                <th>Au Grade<br/>(g/t)</th>
+                                <th>Au Content<br/>(ounces)</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td>0.21 (oxide + mix)</td>
+                                <td>2,154</td>
+                                <td>0.66</td>
+                                <td>45,826</td>
+                                <td>18,431</td>
+                                <td>0.76</td>
+                                <td>449,175</td>
+                            </tr>
+                            <tr>
+                                <td>0.60 (sulphide)</td>
+                                <td>4,103</td>
+                                <td>1.01</td>
+                                <td>133,807</td>
+                                <td>14,331</td>
+                                <td>1.12</td>
+                                <td>514,208</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Total</strong></td>
+                                <td><strong>6,257</strong></td>
+                                <td><strong>0.89</strong></td>
+                                <td><strong>179,633</strong></td>
+                                <td><strong>32,762</strong></td>
+                                <td><strong>0.92</strong></td>
+                                <td><strong>963,383</strong></td>
+                            </tr>
+                            </tbody>
+                        </table>
+                        <h5 className="pt-5">Quartz Butte:</h5>
+                        <h4 className="text-center pt-5">Quartz Mountain – Quartz Butte – Mineral Resources<br/>Pit
+                            Constrained</h4>
+                        <table border="1" cellPadding="6" cellSpacing="0">
+                            <thead>
+                            <tr>
+                                <th rowSpan="2">Cut-off (g/t Au)</th>
+                                <th colSpan="3" className="text-center">Measured</th>
+                                <th colSpan="3" className="text-center">Indicated</th>
+                            </tr>
+                            <tr>
+                                <th>Tonnes<br/>(000’s)</th>
+                                <th>Au Grade<br/>(g/t)</th>
+                                <th>Au Content<br/>ounces</th>
+                                <th>Tonnes<br/>(000’s)</th>
+                                <th>Au Grade<br/>(g/t)</th>
+                                <th>Au Content<br/>ounces</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td>0.21 (oxide+mix)</td>
+                                <td>80</td>
+                                <td>1.08</td>
+                                <td>2,780</td>
+                                <td>4,297</td>
+                                <td>0.68</td>
+                                <td>94,083</td>
+                            </tr>
+                            <tr>
+                                <td>0.60 (sulphide)</td>
+                                <td>23</td>
+                                <td>0.93</td>
+                                <td>689</td>
+                                <td>1,499</td>
+                                <td>1.29</td>
+                                <td>62,219</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Total</strong></td>
+                                <td><strong>103</strong></td>
+                                <td><strong>1.05</strong></td>
+                                <td><strong>3,469</strong></td>
+                                <td><strong>5,796</strong></td>
+                                <td><strong>0.84</strong></td>
+                                <td><strong>156,302</strong></td>
+                            </tr>
+                            </tbody>
+                            <thead>
+                            <tr>
+                                <th rowSpan="2">Cut-off (g/t Au)</th>
+                                <th colSpan="3" className="text-center">Measured and Indicated</th>
+                                <th colSpan="3" className="text-center">Inferred</th>
+                            </tr>
+                            <tr>
+                                <th>Tonnes<br/>(000’s)</th>
+                                <th>Au Grade<br/>(g/t)</th>
+                                <th>Au Content<br/>ounces</th>
+                                <th>Tonnes<br/>(000’s)</th>
+                                <th>Au Grade<br/>(g/t)</th>
+                                <th>Au Content<br/>ounces</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td>0.21 (oxide+mix)</td>
+                                <td>4,377</td>
+                                <td>0.69</td>
+                                <td>96,863</td>
+                                <td>4,232</td>
+                                <td>0.74</td>
+                                <td>100,960</td>
+                            </tr>
+                            <tr>
+                                <td>0.60 (sulphide)</td>
+                                <td>1,522</td>
+                                <td>1.29</td>
+                                <td>62,908</td>
+                                <td>2,211</td>
+                                <td>1.17</td>
+                                <td>83,029</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Total</strong></td>
+                                <td><strong>5,899</strong></td>
+                                <td><strong>0.84</strong></td>
+                                <td><strong>159,771</strong></td>
+                                <td><strong>6,443</strong></td>
+                                <td><strong>0.89</strong></td>
+                                <td><strong>183,989</strong></td>
+                            </tr>
+                            </tbody>
+                        </table>
+                        <h5 className="pt-5">Angels Camp:</h5>
+                        <h4 className="text-center pt-5">Quartz Mountain – Angel’s Camp – Preliminary “in situ” Mineral
+                            Resource</h4>
+                        <table border="1" cellPadding="6" cellSpacing="0">
+                            <thead>
+                            <tr>
+                                <th>Cut-off<br/>(g/t Au)</th>
+                                <th>Tonnage<br/>(tonnes)</th>
+                                <th>Au Grade<br/>(g/t)</th>
+                                <th>Au Content<br/>ounces</th>
+                                <th>Ag Grade<br/>(g/t)</th>
+                                <th>Ag Content<br/>ounces</th>
+                            </tr>
                             </thead>
                             <tbody>
                             <tr>
@@ -66,7 +243,7 @@ const ProjectInnerPage2 = () => {
                                 <td>40,710</td>
                                 <td>4.10</td>
                                 <td>5,366</td>
-                                <td>61,13</td>
+                                <td>61.13</td>
                                 <td>80,011</td>
                             </tr>
                             <tr>
@@ -74,7 +251,7 @@ const ProjectInnerPage2 = () => {
                                 <td>40,710</td>
                                 <td>4.10</td>
                                 <td>5,366</td>
-                                <td>61,13</td>
+                                <td>61.13</td>
                                 <td>80,011</td>
                             </tr>
                             <tr>
@@ -82,7 +259,7 @@ const ProjectInnerPage2 = () => {
                                 <td>40,635</td>
                                 <td>4.10</td>
                                 <td>5,356</td>
-                                <td>61,24</td>
+                                <td>61.24</td>
                                 <td>80,007</td>
                             </tr>
                             <tr>
@@ -90,31 +267,31 @@ const ProjectInnerPage2 = () => {
                                 <td>40,300</td>
                                 <td>4.13</td>
                                 <td>5,351</td>
-                                <td>61,69</td>
-                                <td>80,011</td>
+                                <td>61.69</td>
+                                <td>79,931</td>
                             </tr>
                             <tr>
                                 <td>0.5</td>
                                 <td>39,941</td>
                                 <td>4.17</td>
                                 <td>5,355</td>
-                                <td>62,17</td>
+                                <td>62.17</td>
                                 <td>79,835</td>
                             </tr>
                             <tr>
                                 <td>0.6</td>
                                 <td>39,784</td>
                                 <td>4.18</td>
-                                <td>5,355</td>
-                                <td>62,34</td>
+                                <td>5,347</td>
+                                <td>62.34</td>
                                 <td>79,738</td>
                             </tr>
                             <tr>
                                 <td>0.7</td>
                                 <td>39,689</td>
                                 <td>4.19</td>
-                                <td>5,355</td>
-                                <td>62,34</td>
+                                <td>5,347</td>
+                                <td>62.43</td>
                                 <td>79,662</td>
                             </tr>
                             <tr>
@@ -122,7 +299,7 @@ const ProjectInnerPage2 = () => {
                                 <td>39,526</td>
                                 <td>4.20</td>
                                 <td>5,337</td>
-                                <td>62,34</td>
+                                <td>62.55</td>
                                 <td>79,487</td>
                             </tr>
                             <tr>
@@ -130,7 +307,7 @@ const ProjectInnerPage2 = () => {
                                 <td>39,387</td>
                                 <td>4.22</td>
                                 <td>5,344</td>
-                                <td>62,70</td>
+                                <td>62.70</td>
                                 <td>79,398</td>
                             </tr>
                             <tr>
@@ -138,7 +315,7 @@ const ProjectInnerPage2 = () => {
                                 <td>39,203</td>
                                 <td>4.23</td>
                                 <td>5,332</td>
-                                <td>62,78</td>
+                                <td>62.78</td>
                                 <td>79,129</td>
                             </tr>
                             <tr>
@@ -146,15 +323,15 @@ const ProjectInnerPage2 = () => {
                                 <td>31,904</td>
                                 <td>4.84</td>
                                 <td>4,965</td>
-                                <td>66,64</td>
-                                <td>68,359</td>
+                                <td>66.64</td>
+                                <td>68,356</td>
                             </tr>
                             <tr>
                                 <td>2.5</td>
                                 <td>28,715</td>
                                 <td>5.12</td>
                                 <td>4,727</td>
-                                <td>68,20</td>
+                                <td>68.20</td>
                                 <td>62,962</td>
                             </tr>
                             <tr>
@@ -162,10 +339,9 @@ const ProjectInnerPage2 = () => {
                                 <td>25,915</td>
                                 <td>5.38</td>
                                 <td>4,483</td>
-                                <td>71,43</td>
+                                <td>71.43</td>
                                 <td>59,514</td>
                             </tr>
-
                             </tbody>
                         </table>
                     </div>

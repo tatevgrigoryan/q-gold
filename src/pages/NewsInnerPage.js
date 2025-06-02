@@ -42,7 +42,7 @@ const NewsInnerPage = () => {
     useEffect(() => {
         const fetchLatestNews = async () => {
             try {
-                const res = await axios.get('${process.env.REACT_APP_BACKEND_API_URL}/api/news?sort=createdAt:desc&pagination[limit]=4&populate=*');
+                const res = await axios.get(`${process.env.REACT_APP_BACKEND_API_URL}/api/news?sort=createdAt:desc&pagination[limit]=4&populate=*`);
                 if (res.data && res.data.data) {
                     const latest = res.data.data.map(item => {
                         const attr = item.attributes || {};

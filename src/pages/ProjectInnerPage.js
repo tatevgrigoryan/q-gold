@@ -19,7 +19,7 @@ const ProjectInnerPage = () => {
                     <Container>
 
 
-                        <h2 className="fw-bold">Mine Centre, Ontario</h2>
+                        <h2 className="fw-bold">Mine Centre, Ontario Canada</h2>
 
 
                     </Container>
