@@ -492,8 +492,26 @@ h5 {
   min-height: 600px;
   padding-top: 30px;
 }
-.investor-page ol li {
+.investor-page ul {
+  list-style-type: square;
+}
+.investor-page ul li {
   margin-bottom: 10px;
+}
+.investor-page .profile-cap-table {
+  width: 100%;
+  border-collapse: collapse;
+  border: none;
+}
+.investor-page .profile-cap-table th,
+.investor-page .profile-cap-table td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  vertical-align: top;
+}
+.investor-page .profile-cap-table thead .no-border th {
+  border: none;
+  padding-bottom: 0;
 }
 
 .company-page-content.slide-up {
@@ -622,9 +640,25 @@ button:hover {
 
 .footer {
   background-color: #0b1c3b;
+  padding: 30px 0;
 }
 .footer a {
   color: #ffffff;
+  text-decoration: none;
+}
+.footer a:hover {
+  color: #d2b521;
+}
+.footer img {
+  max-width: 100px;
+}
+.footer h4 {
+  margin-top: 0;
+  padding-top: 0;
+}
+.footer-content {
+  padding-bottom: 40px;
+  border-bottom: 1px solid #d2b521;
 }
 
 .i4ewOd-pzNkMb-r4nke-LS81yb.di8rgd-TEhSn.SfQLQb-fI6EEc {

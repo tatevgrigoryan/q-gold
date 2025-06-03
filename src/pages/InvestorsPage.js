@@ -21,7 +21,7 @@ const InvestorsPage = () => {
                 <section className="investor-page-content">
                     <Container>
                         <h3 className="pt-5">Key INVESTMENT HIGHLIGHTS:</h3>
-                        <ol>
+                        <ul>
                             <li>
                                 <b>Transformational U.S. Acquisition:</b> Acquired from Alamos Gold, which retains a
                                 9.9%
@@ -58,58 +58,68 @@ const InvestorsPage = () => {
                                 <b>Attractive Valuation Potential:</b> Dual-asset platform targeting 2–4Moz+ with strong
                                 re-rating opportunity.
                             </li>
-                        </ol>
+                        </ul>
 
                         <StockChart/>
 
                         <div className="investor-page-table">
                             <Row>
-                                <Col md={6}>
-                                    <h3>Company Profile</h3>
-                                    <table>
+                                <Col md={12}>
+                                    <table className="profile-cap-table">
+                                        <thead>
+                                        <tr className="no-border">
+                                            <th colSpan={2}><h3>Company Profile</h3></th>
+                                            <th colSpan={2}><h3>Cap Table</h3></th>
+                                        </tr>
+                                        </thead>
+                                        <tbody>
                                         <tr>
-                                            <td><b> Trading Symbols:</b></td>
+                                            <td><b>Trading Symbols:</b></td>
                                             <td><b>TSXV</b>: <b>QGR</b> (<b>OTC</b>: Applied, <b>FRA</b>: QX9G)</td>
+                                            <td><b>Total Shares (all classes):</b></td>
+                                            <td>61,659,739</td>
                                         </tr>
                                         <tr>
                                             <td><b>CUSIP:</b></td>
                                             <td>747269</td>
+                                            <td></td>
+                                            <td></td>
                                         </tr>
                                         <tr>
                                             <td><b>ISIN:</b></td>
-                                            <td> CA7472694057</td>
+                                            <td>CA7472694057</td>
+                                            <td></td>
+                                            <td></td>
                                         </tr>
                                         <tr>
                                             <td><b>Date/Place of Formation:</b></td>
                                             <td>25 Mar 1998, British Columbia, Canada</td>
+                                            <td></td>
+                                            <td></td>
                                         </tr>
                                         <tr>
                                             <td><b>Financial Year End:</b></td>
                                             <td>Dec 31, fixed</td>
+                                            <td></td>
+                                            <td></td>
                                         </tr>
                                         <tr>
-                                            <td><b>Auditors</b></td>
+                                            <td><b>Auditors:</b></td>
                                             <td>McGovern Hurley LLP</td>
+                                            <td></td>
+                                            <td></td>
                                         </tr>
                                         <tr>
                                             <td><b>Transfer Agent:</b></td>
                                             <td>TSX Trust</td>
-                                        </tr>
-                                    </table>
-
-                                </Col>
-                                <Col md={6}>
-                                    <h3>Cap Table</h3>
-                                    <table>
-                                        <tbody>
-                                        <tr>
-                                            <td><b>Total Shares (all classes):</b></td>
-                                            <td>61,659,739</td>
+                                            <td></td>
+                                            <td></td>
                                         </tr>
                                         </tbody>
                                     </table>
                                 </Col>
                             </Row>
+
                         </div>
 
                         <h4></h4>

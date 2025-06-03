@@ -5,36 +5,45 @@
 iframe {
   display: block;
   @media only screen and (max-width: 600px) {
-   width: 100%;
+    width: 100%;
   }
 }
+
 table {
   width: 100%;
   margin-top: 30px;
   margin-bottom: 30px;
 }
+
 table, th, td {
   border: 1px solid #595959;
   padding: 5px 10px;
 }
+
 table tr td:first-child {
   font-weight: bold;
 }
+
 a {
   word-break: break-word;
 }
+
 img {
   width: 100%;
 }
+
 .center {
   text-align: center;
 }
+
 .small-img {
   max-width: 250px;
 }
+
 .middle-img {
   max-width: 500px;
 }
+
 h1, h2, h3 {
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
@@ -67,41 +76,50 @@ h3 {
     margin-top: 5px;
   }
 }
+
 h4 {
   font-size: 22px;
   font-weight: bold;
   margin: 20px 0;
 }
+
 h5 {
   font-weight: bold;
   font-size: 18px;
 }
+
 .animate.slide-up {
   opacity: 1;
   transform: translateY(0);
 }
+
 .animate {
   opacity: 0;
   transform: translateY(50px);
   transition: all 0.6s ease-out;
 }
+
 .animate-about {
   opacity: 0;
   transform: translateY(50px);
   transition: all 0.6s ease-out;
 }
+
 .animate-about.slide-up {
   opacity: 1;
   transform: translateY(0);
 }
+
 .navbar {
   font-family: "Montserrat", sans-serif;
   background-color: #0b1c3b;
   border-bottom: 2px solid #d2b521;
+
   .navbar-toggler-icon {
     color: #ffffff !important;
 
   }
+
   .navbar-toggler-icon {
     background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='%23ffffff' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
   }
@@ -154,6 +172,7 @@ h5 {
   color: #595959;
   height: 90vh;
 }
+
 .hero-slide {
   height: 90vh !important;
   background-position: bottom !important;
@@ -166,6 +185,7 @@ h5 {
 .projects-section, .explore-section {
   background-color: #e4e4e4;
   min-height: 350px;
+
   .project-card {
     position: relative;
     background-size: cover;
@@ -253,6 +273,7 @@ h5 {
 .news-section {
   background-color: #e4e4e4;
   min-height: 350px;
+
   .news-card {
     position: relative;
     background-color: white;
@@ -374,6 +395,7 @@ h5 {
     }
   }
 }
+
 .project-inner-page {
   .project-banner {
     padding: 15% 20px;
@@ -381,6 +403,7 @@ h5 {
     background-repeat: no-repeat;
     background-size: cover;
     margin-bottom: 30px;
+
     h2 {
       font-weight: 900;
       font-size: 90px;
@@ -391,15 +414,18 @@ h5 {
     }
   }
 }
+
 .news-inner-page {
   margin-bottom: 30px;
   padding-top: 60px;
+
   .news-banner {
     padding: 15% 20px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     margin-bottom: 30px;
+
     h2 {
       font-weight: 900;
       font-size: 90px;
@@ -415,8 +441,10 @@ h5 {
     padding-right: 30px;
 
   }
+
   .news-inner-latest-wrapper {
     padding-left: 30px;
+
     .latest-news-sidebar {
 
       li {
@@ -453,25 +481,31 @@ h5 {
       }
     }
   }
+
   .news-content {
     a {
       color: #183462 !important;
       text-decoration: underline;
     }
-    p, a , h2 {
+
+    p, a, h2 {
       color: #595959;
     }
+
     img {
       width: 100%;
       padding: 30px 0;
     }
+
     .bold {
       font-weight: bold;
     }
+
     h2 {
       color: #001d3d;
       font-size: 38px;
     }
+
     h4, h5 {
       color: #001d3d;
       margin-top: 20px;
@@ -480,6 +514,7 @@ h5 {
   }
 
 }
+
 .news-page {
   &-banner {
     padding: 15% 20px;
@@ -496,6 +531,7 @@ h5 {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+
     h2 {
       font-weight: 900;
       font-size: 90px;
@@ -506,18 +542,21 @@ h5 {
 
     }
   }
+
   &-content {
     opacity: 0;
     transform: translateY(50px);
     transition: all 0.6s ease-out;
   }
 }
+
 .investor-page {
   &-banner {
     padding: 15% 20px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+
     h2 {
       font-weight: 900;
       font-size: 90px;
@@ -525,20 +564,48 @@ h5 {
 
     }
   }
+
   &-table {
     padding-top: 90px;
+
     tr, td {
       padding: 6px;
     }
   }
+
   iframe {
     min-height: 600px;
     padding-top: 30px;
   }
-  ol li {
-    margin-bottom: 10px;
+
+  ul {
+    list-style-type: square;
+
+    li {
+      margin-bottom: 10px;
+    }
   }
+  .profile-cap-table {
+    width: 100%;
+    border-collapse: collapse;
+    border: none;
+  }
+
+  .profile-cap-table th,
+  .profile-cap-table td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    vertical-align: top;
+  }
+
+  .profile-cap-table thead .no-border th {
+    border: none;
+    padding-bottom: 0;
+  }
+
+
 }
+
 .company-page-content.slide-up {
   opacity: 1;
   transform: translateY(0);
@@ -547,15 +614,18 @@ h5 {
 .team-member-section {
   background-color: #e4e4e4;
   min-height: 650px;
+
   .team-item {
     padding: 0 20px;
     margin-bottom: 40px;
-    img{
+
+    img {
       max-width: 88px;
       margin: 0 auto;
       text-align: center;
       display: block;
     }
+
     .name {
       text-align: center;
       font-weight: bold;
@@ -564,14 +634,16 @@ h5 {
       padding-bottom: 5px;
       padding-top: 15px;
     }
+
     .position {
       text-align: center;
       font-weight: bold;
       font-size: 16px;
     }
-     p{
-       line-height: 30px;
-     }
+
+    p {
+      line-height: 30px;
+    }
   }
 }
 
@@ -583,15 +655,19 @@ h5 {
     background-size: cover;
     margin-bottom: 30px;
   }
+
   &-content {
     padding: 40px 0;
+
     h3 {
       color: #595959;
     }
+
     .link {
       color: #d2b521;
 
     }
+
     h2 {
       font-weight: 900;
       font-size: 90px;
@@ -601,6 +677,7 @@ h5 {
   }
 
 }
+
 .contact-form {
   max-width: 1000px;
   margin: 0 auto;
@@ -670,10 +747,32 @@ button:hover {
 
 .footer {
   background-color: #0b1c3b;
+  padding: 30px 0;
+
   a {
     color: #ffffff;
+    text-decoration: none;
+
+    &:hover {
+      color: #d2b521;
+    }
+  }
+
+  img {
+    max-width: 100px;
+  }
+
+  h4 {
+    margin-top: 0;
+    padding-top: 0;
+  }
+
+  &-content {
+    padding-bottom: 40px;
+    border-bottom: 1px solid #d2b521;
   }
 }
+
 .i4ewOd-pzNkMb-r4nke-LS81yb.di8rgd-TEhSn.SfQLQb-fI6EEc {
   display: none !important;
 }
