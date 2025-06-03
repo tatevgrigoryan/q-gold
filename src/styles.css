@@ -645,6 +645,11 @@ button:hover {
 .footer p {
   font-size: 14px;
 }
+@media only screen and (max-width: 600px) {
+  .footer p {
+    margin-bottom: 0;
+  }
+}
 .footer a {
   font-size: 14px;
   color: #ffffff;
@@ -660,13 +665,22 @@ button:hover {
   margin-top: 0;
   padding-top: 0;
 }
+@media only screen and (max-width: 600px) {
+  .footer h4 {
+    padding-top: 20px;
+    margin-bottom: 10px;
+  }
+}
 .footer-content {
   padding-bottom: 40px;
   border-bottom: 1px solid #d2b521;
 }
 
-.i4ewOd-pzNkMb-r4nke-LS81yb.di8rgd-TEhSn.SfQLQb-fI6EEc {
-  display: none !important;
+@media only screen and (max-width: 600px) {
+  .table-wrapper {
+    overflow-x: auto;
+    width: 100%;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */

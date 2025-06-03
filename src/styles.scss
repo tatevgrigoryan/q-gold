@@ -750,6 +750,9 @@ button:hover {
   padding: 30px 0;
   p {
     font-size: 14px;
+    @media only screen and (max-width: 600px) {
+      margin-bottom: 0;
+    }
   }
 
   a {
@@ -769,6 +772,10 @@ button:hover {
   h4 {
     margin-top: 0;
     padding-top: 0;
+    @media only screen and (max-width: 600px) {
+      padding-top: 20px;
+      margin-bottom: 10px;
+    }
   }
 
   &-content {
@@ -777,6 +784,10 @@ button:hover {
   }
 }
 
-.i4ewOd-pzNkMb-r4nke-LS81yb.di8rgd-TEhSn.SfQLQb-fI6EEc {
-  display: none !important;
+@media only screen and (max-width: 600px) {
+  .table-wrapper {
+    overflow-x: auto;
+    width: 100%;
+  }
 }
+
