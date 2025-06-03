@@ -12,8 +12,8 @@ function Footer() {
                     <Col md={3}>
                         <div>
                             <h4>Address</h4>
-                            Q-Gold Resources Ltd. <br/>
-                            198 Davenport Road, Toronto, ON M5R 1J2
+                           <p> Q-Gold Resources Ltd. <br/>
+                               198 Davenport Road, Toronto, ON M5R 1J2</p>
                         </div>
                     </Col>
                     <Col md={3}>

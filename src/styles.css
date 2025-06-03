@@ -642,7 +642,11 @@ button:hover {
   background-color: #0b1c3b;
   padding: 30px 0;
 }
+.footer p {
+  font-size: 14px;
+}
 .footer a {
+  font-size: 14px;
   color: #ffffff;
   text-decoration: none;
 }
