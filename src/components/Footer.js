@@ -7,7 +7,7 @@ function Footer() {
             <Container className="py-5">
                 <Row className="justify-content-between align-content-start footer-content">
                     <Col md={2}>
-                        <img className="middle-img" src="/images/logo.png" alt="image"/>
+                        <img className="middle-img" src="/images/logo.jpeg" alt="image"/>
                     </Col>
                     <Col md={3}>
                         <div>
