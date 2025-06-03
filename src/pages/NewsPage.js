@@ -38,7 +38,7 @@ function NewsPage() {
             <CustomNavbar/>
             <section className="news-page-banner text-center text-white"
                      style={{backgroundImage: "url('/images/newinner.png')"}}>
-                <h2>News</h2>
+                <h2>News & Events</h2>
             </section>
             <section className="news-section py-5">
                 <Container>

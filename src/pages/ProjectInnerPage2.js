@@ -34,7 +34,7 @@ const ProjectInnerPage2 = () => {
                             src="https://www.google.com/maps/d/embed?mid=1AI8bsEkfCFgIHB8kF02z3yTmOTBhubU&ehbc=2E312F"
                             width="100%" height="480"></iframe>
 
-                        <h3 className="mt-5 pt-5">Critical components of Quartz Mine:</h3>
+                        <h3 className="mt-5 pt-5">Critical components of Quartz Mountain:</h3>
                         <img className="middle-img" src="/images/image-quartz.png" alt="image"/>
                         <h5 className="pt-5">Crone Hill:</h5>
                         <h4 className="text-center pt-5">Quartz Mountain – Crone Hill – Mineral Resources<br/> Pit
@@ -223,6 +223,8 @@ const ProjectInnerPage2 = () => {
                             </tr>
                             </tbody>
                         </table>
+
+                        <img className="middle-img" src="/images/table3.png" alt="image"/>
                         <h5 className="pt-5">Angels Camp:</h5>
                         <h4 className="text-center pt-5">Quartz Mountain – Angel’s Camp – Preliminary “in situ” Mineral
                             Resource</h4>
