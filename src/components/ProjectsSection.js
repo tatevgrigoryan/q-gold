@@ -38,12 +38,12 @@ function ProjectsSection() {
     }, []);
 
     return (
-        <section className="projects-section py-5" id="projects">
+        <section className="projects-section" id="projects">
             <div >
                 <Container className="py-5">
                     <div ref={ref} className={`animate ${inView ? 'slide-up' : ''}`}>
                         <h3 className="mb-5">Projects</h3>
-                        <Row>
+                        <Row className="justify-content-center">
                             {projectItems.length === 0 && <p>Loading projects...</p>}
                             {projectItems.map((project) => (
                                 <Col key={project.id} md={4} className="mb-4">

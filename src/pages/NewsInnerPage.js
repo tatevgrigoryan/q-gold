@@ -23,7 +23,7 @@ const NewsInnerPage = () => {
                         id: inner_item.id,
                         title: inner_item.Title,
                         content: inner_item.Content,
-                        date: format(new Date(inner_item.createdAt), 'MMMM dd, yyyy'),
+                        date: inner_item.Date,
                         category: inner_item.CategoryName || "News",
                     };
                     console.log("Rendered content:", newsItem);
@@ -49,7 +49,7 @@ const NewsInnerPage = () => {
                         return {
                             id: item.id,
                             title: item.Title,
-                            date: format(new Date(item.createdAt), 'MMMM dd, yyyy'),
+                            date: item.Date,
                             category: item.category || "News",
                             link: `/news/${item.id}`,
                         };

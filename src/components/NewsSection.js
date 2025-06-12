@@ -21,7 +21,7 @@ function NewsSection() {
                         id: item.id,
                         title: item.Title, // Corrected field access
                         content: item.Content, // Corrected field access
-                        date: format(new Date(item.createdAt), 'MMMM dd, yyyy'), // Corrected field access
+                        date: item.Date,
                         category: item.CategoryName || "News", // Corrected field access
                         link: `/news/${item.id}` // Use the slug for the link
                     };

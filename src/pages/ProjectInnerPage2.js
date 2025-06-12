@@ -15,13 +15,74 @@ const ProjectInnerPage2 = () => {
             <section className="project-inner-page">
 
                 <section className="project-banner text-center text-white"
-                         style={{backgroundImage: "url('/images/banner3.png')"}}>
+                         style={{backgroundImage: "url('/images/home-banner.png')"}}>
                     <Container>
                         <h2 className="fw-bold">Quartz Mountain, Oregon USA</h2>
                     </Container>
                 </section>
                 <Container>
                     <div className="py-3">
+                        <Row className="align-items-center">
+                            <Col md={6}>
+                                <img className=" pb-5" src="/images/quartz-map.png" alt="map"/>
+                            </Col>
+                            <Col md={6}>
+                                <ul className="py-3">
+                                    <li>
+                                        <img src="/images/arrow.svg" alt="arrow"/>
+                                        <p>
+                                            Near surface gold deposit (339,000 oz M&I, 1,147,000 oz inferred) with
+                                            potential open pit heap leach starter operation in Oregon
+
+                                        </p>
+
+                                    </li>
+                                    <li>
+                                        <img src="/images/arrow.svg" alt="arrow"/>
+                                        <p>
+                                            Resource expansion drilling to begin alongside permit applications with the
+                                            State of Oregon
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <img src="/images/arrow.svg" alt="arrow"/>
+                                        <p>
+                                            Project located on federal land allowing for a streamlined process for new
+                                            mining projects
+
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <img src="/images/arrow.svg" alt="arrow"/>
+                                        <p>
+                                            Trump Executive Order for Fast Track Mineral development including Gold. On
+                                            Federal lands, in a red county with Paramount Gold’s (NYSE:PZG) Oregon asset
+                                            recently paving the way by securing significant permitting approval
+                                            milestones
+
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <img src="/images/arrow.svg" alt="arrow"/>
+                                        <p>
+                                            Internal Economic Assessment by Alamos yielded positive NAV and 23% IRR at
+                                            1400 gold
+
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <img src="/images/arrow.svg" alt="arrow"/>
+                                        <p>
+                                            Significant Exploration Upside potential with Angel's Camp satellite deposit
+                                            (2km away) as well as several other similar gold anomalies
+
+                                        </p>
+                                    </li>
+
+                                </ul>
+                            </Col>
+                        </Row>
+
                         <p>
                             In the advanced exploration stage, the property consists of 244 mineral claims over ~2000
                             ha. With ~100k metres of historical drilling, Alamos drilled 7k meters in 2014-2015. Quartz
@@ -29,10 +90,11 @@ const ProjectInnerPage2 = () => {
                             supportive local community and favourable and permitting environment make Quartz Mountain a
                             pillar of Q-Gold’s growth portfolio. The more significant upside comes from the Angel’s Camp
                             asset, 9,800 ft east from the Butte deposit.
+
                         </p>
-                        <iframe
+                        {/* <iframe
                             src="https://www.google.com/maps/d/embed?mid=1AI8bsEkfCFgIHB8kF02z3yTmOTBhubU&ehbc=2E312F"
-                            width="100%" height="480"></iframe>
+                            width="100%" height="480"></iframe>*/}
 
                         <h3 className="mt-5 pt-5">Critical components of Quartz Mountain:</h3>
                         <img className="middle-img" src="/images/image-quartz.png" alt="image"/>
@@ -136,98 +198,98 @@ const ProjectInnerPage2 = () => {
                         <h5 className="pt-5">Quartz Butte:</h5>
                         <h4 className="text-center pt-5">Quartz Mountain – Quartz Butte – Mineral Resources<br/>Pit
                             Constrained</h4>
-                       <div className="table-wrapper">
-                           <table border="1" cellPadding="6" cellSpacing="0">
-                               <thead>
-                               <tr>
-                                   <th rowSpan="2">Cut-off (g/t Au)</th>
-                                   <th colSpan="3" className="text-center">Measured</th>
-                                   <th colSpan="3" className="text-center">Indicated</th>
-                               </tr>
-                               <tr>
-                                   <th>Tonnes<br/>(000’s)</th>
-                                   <th>Au Grade<br/>(g/t)</th>
-                                   <th>Au Content<br/>ounces</th>
-                                   <th>Tonnes<br/>(000’s)</th>
-                                   <th>Au Grade<br/>(g/t)</th>
-                                   <th>Au Content<br/>ounces</th>
-                               </tr>
-                               </thead>
-                               <tbody>
-                               <tr>
-                                   <td>0.21 (oxide+mix)</td>
-                                   <td>80</td>
-                                   <td>1.08</td>
-                                   <td>2,780</td>
-                                   <td>4,297</td>
-                                   <td>0.68</td>
-                                   <td>94,083</td>
-                               </tr>
-                               <tr>
-                                   <td>0.60 (sulphide)</td>
-                                   <td>23</td>
-                                   <td>0.93</td>
-                                   <td>689</td>
-                                   <td>1,499</td>
-                                   <td>1.29</td>
-                                   <td>62,219</td>
-                               </tr>
-                               <tr>
-                                   <td><strong>Total</strong></td>
-                                   <td><strong>103</strong></td>
-                                   <td><strong>1.05</strong></td>
-                                   <td><strong>3,469</strong></td>
-                                   <td><strong>5,796</strong></td>
-                                   <td><strong>0.84</strong></td>
-                                   <td><strong>156,302</strong></td>
-                               </tr>
-                               </tbody>
-                               <thead>
-                               <tr>
-                                   <th rowSpan="2">Cut-off (g/t Au)</th>
-                                   <th colSpan="3" className="text-center">Measured and Indicated</th>
-                                   <th colSpan="3" className="text-center">Inferred</th>
-                               </tr>
-                               <tr>
-                                   <th>Tonnes<br/>(000’s)</th>
-                                   <th>Au Grade<br/>(g/t)</th>
-                                   <th>Au Content<br/>ounces</th>
-                                   <th>Tonnes<br/>(000’s)</th>
-                                   <th>Au Grade<br/>(g/t)</th>
-                                   <th>Au Content<br/>ounces</th>
-                               </tr>
-                               </thead>
-                               <tbody>
-                               <tr>
-                                   <td>0.21 (oxide+mix)</td>
-                                   <td>4,377</td>
-                                   <td>0.69</td>
-                                   <td>96,863</td>
-                                   <td>4,232</td>
-                                   <td>0.74</td>
-                                   <td>100,960</td>
-                               </tr>
-                               <tr>
-                                   <td>0.60 (sulphide)</td>
-                                   <td>1,522</td>
-                                   <td>1.29</td>
-                                   <td>62,908</td>
-                                   <td>2,211</td>
-                                   <td>1.17</td>
-                                   <td>83,029</td>
-                               </tr>
-                               <tr>
-                                   <td><strong>Total</strong></td>
-                                   <td><strong>5,899</strong></td>
-                                   <td><strong>0.84</strong></td>
-                                   <td><strong>159,771</strong></td>
-                                   <td><strong>6,443</strong></td>
-                                   <td><strong>0.89</strong></td>
-                                   <td><strong>183,989</strong></td>
-                               </tr>
-                               </tbody>
-                           </table>
-                       </div>
+                        <div className="table-wrapper">
+                            <table border="1" cellPadding="6" cellSpacing="0">
+                                <thead>
+                                <tr>
+                                    <th rowSpan="2">Cut-off (g/t Au)</th>
+                                    <th colSpan="3" className="text-center">Measured</th>
+                                    <th colSpan="3" className="text-center">Indicated</th>
+                                </tr>
+                                <tr>
+                                    <th>Tonnes<br/>(000’s)</th>
+                                    <th>Au Grade<br/>(g/t)</th>
+                                    <th>Au Content<br/>ounces</th>
+                                    <th>Tonnes<br/>(000’s)</th>
+                                    <th>Au Grade<br/>(g/t)</th>
+                                    <th>Au Content<br/>ounces</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr>
+                                    <td>0.21 (oxide+mix)</td>
+                                    <td>80</td>
+                                    <td>1.08</td>
+                                    <td>2,780</td>
+                                    <td>4,297</td>
+                                    <td>0.68</td>
+                                    <td>94,083</td>
+                                </tr>
+                                <tr>
+                                    <td>0.60 (sulphide)</td>
+                                    <td>23</td>
+                                    <td>0.93</td>
+                                    <td>689</td>
+                                    <td>1,499</td>
+                                    <td>1.29</td>
+                                    <td>62,219</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Total</strong></td>
+                                    <td><strong>103</strong></td>
+                                    <td><strong>1.05</strong></td>
+                                    <td><strong>3,469</strong></td>
+                                    <td><strong>5,796</strong></td>
+                                    <td><strong>0.84</strong></td>
+                                    <td><strong>156,302</strong></td>
+                                </tr>
+                                </tbody>
+                                <thead>
+                                <tr>
+                                    <th rowSpan="2">Cut-off (g/t Au)</th>
+                                    <th colSpan="3" className="text-center">Measured and Indicated</th>
+                                    <th colSpan="3" className="text-center">Inferred</th>
+                                </tr>
+                                <tr>
+                                    <th>Tonnes<br/>(000’s)</th>
+                                    <th>Au Grade<br/>(g/t)</th>
+                                    <th>Au Content<br/>ounces</th>
+                                    <th>Tonnes<br/>(000’s)</th>
+                                    <th>Au Grade<br/>(g/t)</th>
+                                    <th>Au Content<br/>ounces</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr>
+                                    <td>0.21 (oxide+mix)</td>
+                                    <td>4,377</td>
+                                    <td>0.69</td>
+                                    <td>96,863</td>
+                                    <td>4,232</td>
+                                    <td>0.74</td>
+                                    <td>100,960</td>
+                                </tr>
+                                <tr>
+                                    <td>0.60 (sulphide)</td>
+                                    <td>1,522</td>
+                                    <td>1.29</td>
+                                    <td>62,908</td>
+                                    <td>2,211</td>
+                                    <td>1.17</td>
+                                    <td>83,029</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Total</strong></td>
+                                    <td><strong>5,899</strong></td>
+                                    <td><strong>0.84</strong></td>
+                                    <td><strong>159,771</strong></td>
+                                    <td><strong>6,443</strong></td>
+                                    <td><strong>0.89</strong></td>
+                                    <td><strong>183,989</strong></td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
 
                         <img className="middle-img" src="/images/table3.png" alt="image"/>
                         <h5 className="pt-5">Angels Camp:</h5>

@@ -8,6 +8,8 @@ import InvestorsPage from "./pages/InvestorsPage";
 import NewsPage from "./pages/NewsPage";
 import ProjectInnerPage from "./pages/ProjectInnerPage";
 import ProjectInnerPage2 from "./pages/ProjectInnerPage2";
+import LegalContent from "./pages/LegalContent";
+import ComingSoon from "./pages/ComingSoon";
 
 function App() {
     return (
@@ -21,6 +23,8 @@ function App() {
                 <Route path="/news" element={<NewsPage />} />
                 <Route path="/investors" element={<InvestorsPage />} />
                 <Route path="/contact" element={<ContactPage />} />
+                <Route path="/legal-notice" element={<LegalContent />} />
+                <Route path="/coming-soon" element={<ComingSoon />} />
             </Routes>
         </Router>
     );

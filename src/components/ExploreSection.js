@@ -44,7 +44,7 @@ function ExploreSection() {
         },
         {
             title: 'Investor Information',
-            image: '/images/investor.png',
+            image: '/images/investor-img.png',
             link: '/investors',
         },
     ];

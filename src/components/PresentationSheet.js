@@ -11,13 +11,16 @@ function PresentationSheet() {
                     <Col xs={12} md="auto" className="d-flex align-items-center">
                         <h3 className="mb-3">PRESENTATION</h3>
                         <i className="fas fa-arrow-circle-right d-block mb-3"></i>
-                        <button onClick={() => window.open('/presentation.pdf', '_blank')} className="border-0 bg-transparent">
+                        <a href="/coming-soon">
                             <img
                                 className="img-fluid presentation"
-                                src="/images/journal1.jpg"
+                                src="/images/Q.png"
                                 alt="Presentation"
                             />
-                        </button>
+                        </a>
+                       {/* <button onClick={() => window.open('/coming-soon', '_blank')} className="border-0 bg-transparent">
+
+                        </button>*/}
                     </Col>
 
                     {/* Divider */}
@@ -27,13 +30,13 @@ function PresentationSheet() {
 
                     {/* Fact Sheet */}
                     <Col xs={12} md="auto" className="d-flex align-items-center">
-                        <button onClick={() => window.open('/presentation.pdf', '_blank')} className="border-0 bg-transparent">
+                        <a  href="/coming-soon">
                             <img
                                 className="img-fluid factsheet"
-                                src="/images/journal2.jpg"
+                                src="/images/investor-facts.png"
                                 alt="Fact Sheet"
                             />
-                        </button>
+                        </a>
                         <i className="fas fa-arrow-circle-left d-block mt-3"></i>
                         <h3 className="mt-3">FACT SHEET</h3>
                     </Col>

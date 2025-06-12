@@ -9,6 +9,7 @@ iframe {
   }
 }
 
+
 table {
   width: 100%;
   margin-top: 30px;
@@ -51,7 +52,8 @@ h1, h2, h3 {
 }
 
 h2 {
-  font-size: 100px;
+  text-shadow: 0.08em 0.08em 0.08em rgba(0, 0, 0, 0.4);
+  font-size: 80px;
   color: #fff;
   @media only screen and (max-width: 600px) {
     font-size: 40px;
@@ -81,11 +83,22 @@ h4 {
   font-size: 22px;
   font-weight: bold;
   margin: 20px 0;
+
 }
 
 h5 {
   font-weight: bold;
   font-size: 18px;
+}
+
+h6 {
+  font-size: 17px;
+  font-weight: 400;
+
+  &.big-gap {
+    padding-top: 20%;
+
+  }
 }
 
 .animate.slide-up {
@@ -126,7 +139,7 @@ h5 {
 
 
   .logo {
-    max-width: 75px;
+    max-width: 55px;
   }
 
   .navbar-nav {
@@ -161,6 +174,11 @@ h5 {
     color: #d2b521;
   }
 
+  .container {
+    max-width: 920px;
+    margin: 0 auto;
+  }
+
 }
 
 .hero-section {
@@ -171,11 +189,84 @@ h5 {
   background-position: center;
   color: #595959;
   height: 90vh;
+
+  ul li {
+    opacity: 0;
+    animation-name: slideInUp;
+    animation-fill-mode: forwards;
+    animation-duration: 1s;
+  }
+
+  @keyframes slideInUp {
+    from {
+      transform: translate3d(0, 100%, 0);
+      opacity: 0;
+    }
+
+    to {
+      transform: translate3d(0, 0, 0);
+      opacity: 1;
+    }
+  }
+
+  ul li:nth-child(1) {
+    animation-delay: 0s;
+  }
+
+  ul li:nth-child(2) {
+    animation-delay: 1s;
+  }
+
+  ul li:nth-child(3) {
+    animation-delay: 2s;
+  }
+
+  ul li:nth-child(4) {
+    animation-delay: 3s;
+  }
+
+  ul li:nth-child(5) {
+    animation-delay: 4s;
+  }
+
+  ul li:nth-child(6) {
+    animation-delay: 5s;
+  }
+
+  ul {
+    @media only screen and (max-width: 750px) {
+      display: none;
+    }
+
+    li {
+      display: flex;
+      align-items: flex-start;
+      list-style: none;
+      background-color: RGBA(0, 0, 0, 0.6) !important;
+      border-radius: 16px;
+      padding: 10px;
+      margin-bottom: 10px;
+
+      img {
+        max-width: 28px;
+        margin-right: 10px;
+      }
+    }
+  }
+
 }
 
 .hero-slide {
   height: 90vh !important;
   background-position: bottom !important;
+}
+
+.carousel .carousel-indicators button {
+  display: none !important;
+}
+
+.carousel .carousel-control-prev, .carousel .carousel-control-next {
+  display: none !important;
 }
 
 .about-section {
@@ -363,10 +454,13 @@ h5 {
 
   img {
     transition: 0.7s;
-    max-width: 200px;
+    max-width: 100px;
 
     &.factsheet {
       max-width: 86px;
+    }
+    &.presentation {
+      margin: 0 30px;
     }
 
     &:hover {
@@ -383,7 +477,7 @@ h5 {
   }
 
   .fas {
-    font-size: 40px;
+    font-size: 25px;
     color: #d2b521;
 
     &.fa-arrow-circle-right {
@@ -412,6 +506,33 @@ h5 {
         font-size: 40px;
       }
     }
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+    li {
+      position: relative;
+      margin-bottom: 20px;
+      font-size: 16px;
+
+      img {
+        position: absolute;
+        top: 4px;
+        max-width: 25px;
+        margin-right: 10px;
+      }
+
+      p {
+        padding-left: 35px;
+      }
+    }
+  }
+
+  .middle-img {
+    max-width: 700px;
   }
 }
 
@@ -579,12 +700,27 @@ h5 {
   }
 
   ul {
-    list-style-type: square;
+    list-style: none;
+    padding: 0;
+    margin: 0;
 
     li {
-      margin-bottom: 10px;
+      position: relative;
+      margin-bottom: 20px;
+      font-size: 16px;
+
+      img {
+        position: absolute;
+        max-width: 25px;
+        margin-right: 10px;
+      }
+
+      p {
+        padding-left: 35px;
+      }
     }
   }
+
   .profile-cap-table {
     width: 100%;
     border-collapse: collapse;
@@ -678,6 +814,10 @@ h5 {
 
 }
 
+.legal-content-page {
+  padding: 60px 0 60px 0;
+}
+
 .contact-form {
   max-width: 1000px;
   margin: 0 auto;
@@ -748,6 +888,7 @@ button:hover {
 .footer {
   background-color: #0b1c3b;
   padding: 30px 0;
+
   p {
     font-size: 14px;
     @media only screen and (max-width: 600px) {
@@ -766,7 +907,7 @@ button:hover {
   }
 
   img {
-    max-width: 100px;
+    max-width: 65px;
   }
 
   h4 {
@@ -781,6 +922,17 @@ button:hover {
   &-content {
     padding-bottom: 40px;
     border-bottom: 1px solid #d2b521;
+  }
+}
+
+.coming-soon-page {
+  min-height: 100vh;
+  text-align: center;
+  background-color: #e4e4e4;
+
+  h2 {
+    padding-top: 20%;
+    color: #d2b521;
   }
 }
 

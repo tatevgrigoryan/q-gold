@@ -16,7 +16,7 @@ function TradingViewWidget() {
               "symbol": "TSXV:QGR",
               "timezone": "Etc/UTC",
               "theme": "light",
-              "style": "1",
+              "style": "3",
               "locale": "en",
               "withdateranges": true,
               "range": "YTD",

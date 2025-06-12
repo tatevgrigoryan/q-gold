@@ -52,7 +52,8 @@ h1, h2, h3 {
 }
 
 h2 {
-  font-size: 100px;
+  text-shadow: 0.08em 0.08em 0.08em rgba(0, 0, 0, 0.4);
+  font-size: 80px;
   color: #fff;
 }
 @media only screen and (max-width: 600px) {
@@ -90,6 +91,14 @@ h5 {
   font-size: 18px;
 }
 
+h6 {
+  font-size: 17px;
+  font-weight: 400;
+}
+h6.big-gap {
+  padding-top: 20%;
+}
+
 .animate.slide-up {
   opacity: 1;
   transform: translateY(0);
@@ -124,7 +133,7 @@ h5 {
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='%23ffffff' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
 }
 .navbar .logo {
-  max-width: 75px;
+  max-width: 55px;
 }
 .navbar .navbar-nav a {
   font-size: 18px;
@@ -149,6 +158,10 @@ h5 {
 .navbar .navbar-nav .nav-link.active {
   color: #d2b521;
 }
+.navbar .container {
+  max-width: 920px;
+  margin: 0 auto;
+}
 
 .hero-section {
   font-family: "Montserrat", sans-serif;
@@ -159,10 +172,70 @@ h5 {
   color: #595959;
   height: 90vh;
 }
+.hero-section ul li {
+  opacity: 0;
+  animation-name: slideInUp;
+  animation-fill-mode: forwards;
+  animation-duration: 1s;
+}
+@keyframes slideInUp {
+  from {
+    transform: translate3d(0, 100%, 0);
+    opacity: 0;
+  }
+  to {
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
+  }
+}
+.hero-section ul li:nth-child(1) {
+  animation-delay: 0s;
+}
+.hero-section ul li:nth-child(2) {
+  animation-delay: 1s;
+}
+.hero-section ul li:nth-child(3) {
+  animation-delay: 2s;
+}
+.hero-section ul li:nth-child(4) {
+  animation-delay: 3s;
+}
+.hero-section ul li:nth-child(5) {
+  animation-delay: 4s;
+}
+.hero-section ul li:nth-child(6) {
+  animation-delay: 5s;
+}
+@media only screen and (max-width: 750px) {
+  .hero-section ul {
+    display: none;
+  }
+}
+.hero-section ul li {
+  display: flex;
+  align-items: flex-start;
+  list-style: none;
+  background-color: RGBA(0, 0, 0, 0.6) !important;
+  border-radius: 16px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.hero-section ul li img {
+  max-width: 28px;
+  margin-right: 10px;
+}
 
 .hero-slide {
   height: 90vh !important;
   background-position: bottom !important;
+}
+
+.carousel .carousel-indicators button {
+  display: none !important;
+}
+
+.carousel .carousel-control-prev, .carousel .carousel-control-next {
+  display: none !important;
 }
 
 .about-section {
@@ -320,10 +393,13 @@ h5 {
 }
 .journal-section img {
   transition: 0.7s;
-  max-width: 200px;
+  max-width: 100px;
 }
 .journal-section img.factsheet {
   max-width: 86px;
+}
+.journal-section img.presentation {
+  margin: 0 30px;
 }
 .journal-section img:hover {
   box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
@@ -336,7 +412,7 @@ h5 {
   background-color: #ffffff;
 }
 .journal-section .fas {
-  font-size: 40px;
+  font-size: 25px;
   color: #d2b521;
 }
 .journal-section .fas.fa-arrow-circle-right {
@@ -362,6 +438,28 @@ h5 {
   .project-inner-page .project-banner h2 {
     font-size: 40px;
   }
+}
+.project-inner-page ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.project-inner-page ul li {
+  position: relative;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+.project-inner-page ul li img {
+  position: absolute;
+  top: 4px;
+  max-width: 25px;
+  margin-right: 10px;
+}
+.project-inner-page ul li p {
+  padding-left: 35px;
+}
+.project-inner-page .middle-img {
+  max-width: 700px;
 }
 
 .news-inner-page {
@@ -493,10 +591,22 @@ h5 {
   padding-top: 30px;
 }
 .investor-page ul {
-  list-style-type: square;
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 .investor-page ul li {
-  margin-bottom: 10px;
+  position: relative;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+.investor-page ul li img {
+  position: absolute;
+  max-width: 25px;
+  margin-right: 10px;
+}
+.investor-page ul li p {
+  padding-left: 35px;
 }
 .investor-page .profile-cap-table {
   width: 100%;
@@ -570,6 +680,10 @@ h5 {
   font-weight: 900;
   font-size: 90px;
   line-height: 95px;
+}
+
+.legal-content-page {
+  padding: 60px 0 60px 0;
 }
 
 .contact-form {
@@ -659,7 +773,7 @@ button:hover {
   color: #d2b521;
 }
 .footer img {
-  max-width: 100px;
+  max-width: 65px;
 }
 .footer h4 {
   margin-top: 0;
@@ -674,6 +788,16 @@ button:hover {
 .footer-content {
   padding-bottom: 40px;
   border-bottom: 1px solid #d2b521;
+}
+
+.coming-soon-page {
+  min-height: 100vh;
+  text-align: center;
+  background-color: #e4e4e4;
+}
+.coming-soon-page h2 {
+  padding-top: 20%;
+  color: #d2b521;
 }
 
 @media only screen and (max-width: 600px) {

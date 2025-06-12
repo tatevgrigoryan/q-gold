@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="400px" height="400px" viewBox="0 0 400 400" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Chevron Copy</title>
+    <defs>
+        <circle id="path-1" cx="200" cy="200" r="185"></circle>
+        <filter x="-0.4%" y="-0.4%" width="101.2%" height="101.5%" filterUnits="objectBoundingBox" id="filter-2">
+            <feMorphology radius="0.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="1" dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feMorphology radius="10.5" operator="erode" in="SourceAlpha" result="shadowInner"></feMorphology>
+            <feOffset dx="1" dy="2" in="shadowInner" result="shadowInner"></feOffset>
+            <feComposite in="shadowOffsetOuter1" in2="shadowInner" operator="out" result="shadowOffsetOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 1 0" type="matrix" in="shadowOffsetOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Chevron-Copy" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <circle id="Oval-Copy" fill="#FAFAFA" cx="200" cy="200" r="185"></circle>
+        <g id="Oval">
+            <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+            <circle stroke="#E39F23" stroke-width="10" stroke-linejoin="square" cx="200" cy="200" r="180"></circle>
+        </g>
+        <path d="M187.21552,97.8248379 C179.487419,90.0935874 166.74915,90.0935874 159.021958,97.8248379 C151.293857,105.556088 151.293857,118.299548 159.021958,126.029888 L232.696343,199.966341 L158.790006,273.902793 C151.061905,281.634044 151.061905,294.377503 158.790006,302.107844 C162.654057,305.973469 167.886171,308.0264 172.887242,308.0264 C178.119356,308.0264 183.120427,305.982478 186.984478,302.107844 L274.987596,214.068866 C282.955609,206.337616 282.955609,193.594156 275.227439,185.863816 L187.21552,97.8248379 Z" id="Path" fill="#E39F23" fill-rule="nonzero" transform="translate(216.993930, 200.026400) rotate(-360.000000) translate(-216.993930, -200.026400) "></path>
+    </g>
+</svg>

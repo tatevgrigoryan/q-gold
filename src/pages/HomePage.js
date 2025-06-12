@@ -30,7 +30,6 @@ function App() {
         <>
             <CustomNavbar/>
             <HeroSection/>
-            <AboutSection/>
             <ProjectsSection/>
             <ExploreSection />
             <PresentationSheet />

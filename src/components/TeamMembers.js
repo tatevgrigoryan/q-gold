@@ -11,13 +11,15 @@ function TeamMembers() {
     useEffect(() => {
         const fetchTeamMembers = async () => {
             try {
-                const res = await axios.get(`${process.env.REACT_APP_BACKEND_API_URL}/api/team-members?populate=*`);
+                const res = await axios.get(`${process.env.REACT_APP_BACKEND_API_URL}/api/team-members?populate=*&sort=order:asc`);
+
                 const mappedMembers = res.data.data.map((item) => {
                     const { attributes, Name, Position, Description, image } = item;
 
                     const name = attributes ? attributes.Name : Name;
                     const position = attributes ? attributes.Position : Position;
                     const description = attributes ? attributes.Description : Description;
+                    const order = attributes ? attributes.order : null;
 
                     const imageUrl = image?.url
                         ? `${process.env.REACT_APP_BACKEND_API_URL}${image.url}`
@@ -28,7 +30,8 @@ function TeamMembers() {
                         name,
                         position,
                         description,
-                        imageUrl
+                        imageUrl,
+                        order
                     };
                 }).filter(Boolean);
 

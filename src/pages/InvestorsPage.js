@@ -20,43 +20,68 @@ const InvestorsPage = () => {
                 </section>
                 <section className="investor-page-content">
                     <Container>
-                        <h3 className="pt-5">Key INVESTMENT HIGHLIGHTS:</h3>
+                        <h3 className="pt-5">A Dual-Asset Gold Platform Positioned for Significant Growth and Re-Rating
+                            Potential</h3>
                         <ul>
                             <li>
-                                <b>Transformational U.S. Acquisition:</b> Acquired from Alamos Gold, which retains a
-                                9.9%
-                                stake—demonstrating strategic alignment and confidence.
+                                <img src="/images/arrow.svg" alt="arrow"/>
+                                <p>
+                                    <b>Transformational U.S. Gold Acquisition</b><br/>
+                                    Q-Gold has signed an agreement to acquire 100% of the advanced-stage <b>Quartz
+                                    Mountain
+                                    Project</b> in Oregon — a 339,000 oz M&I, 1,147,000 oz inferred historical (non
+                                    43-101
+                                    compliant) gold resource with significant heap leach potential and strong
+                                    development
+                                    economics.
+                                </p>
                             </li>
                             <li>
-                                <b>Significant Resource Scale:</b> Quartz Mountain features an open pit deposit with
-                                heap leach
-                                potential, valued at just ~$15/oz post-financing (339K oz M&I, 1,147K oz inferred).
+                                <img src="/images/arrow.svg" alt="arrow"/>
+                                <p>
+                                    <b>Tier 1 Jurisdictions – U.S. and Canada</b><br/>
+                                    Projects located in mining-friendly, infrastructure-rich jurisdictions — Oregon and
+                                    Ontario — offer lower permitting risk, access to skilled labor, and alignment with
+                                    strategic domestic supply priorities.
+
+                                </p>
                             </li>
                             <li>
-                                <b>Canadian Upside:</b> Past producing Mine Centre in Ontario offers high-grade,
-                                drill-ready
-                                targets with discovery potential.
+                                <img src="/images/arrow.svg" alt="arrow"/>
+                                <p>
+                                    <b>Significant Exploration Upside</b> <br/>
+                                    Both assets feature underexplored land packages with high discovery potential.
+                                    Quartz Mountain includes multiple untested targets, and Mine Centre hosts mapped
+                                    quartz veins, historic high-grade intercepts, and visible gold.
+
+                                </p>
                             </li>
                             <li>
-                                <b> Advanced Stage with Strong Economics:</b> ~$20M in prior investment; 44% IRR at
-                                $1,900 gold.
+                                <img src="/images/arrow.svg" alt="arrow"/>
+                                <p>
+                                    <b>Near-Term Catalysts for Growth</b><br/>
+                                    Exploration and Drill program at Mine Centre and upcoming technical work on Quartz
+                                    Mountain (PEA, updated resource) offer a clear path to value creation through news
+                                    flow and resource growth.
+                                </p>
                             </li>
                             <li>
-                                <b>Permitting Advantage:</b> Fast-track U.S. federal land pathway; Ontario drill permits
-                                in
-                                hand.
+                                <img src="/images/arrow.svg" alt="arrow"/>
+                                <p>
+                                    <b>Clean Capital Structure & Strategic Backing</b> <br/>
+                                    Tight share count and institutional alignment, including Alamos Gold’s 9.99% equity
+                                    interest, provide credibility and strong shareholder support.
+
+                                </p>
                             </li>
                             <li>
-                                Exploration-Driven Growth: High-impact drilling planned at Angel’s Camp and Mine Centre.
-                            </li>
-                            <li>
-                                <b>Near-Term Catalysts:</b> Upcoming resource update, PEA at current prices, and 2025
-                                drilling
-                                campaign.
-                            </li>
-                            <li>
-                                <b>Attractive Valuation Potential:</b> Dual-asset platform targeting 2–4Moz+ with strong
-                                re-rating opportunity.
+                                <img src="/images/arrow.svg" alt="arrow"/>
+                                <p>
+                                    <b>Clear Re-Rating Potential</b> <br/>
+                                    Advancing a significant U.S. gold asset with heap leach potential provides a
+                                    near-term pathway from junior explorer to America’s Next Tier 1 Gold Developer.
+
+                                </p>
                             </li>
                         </ul>
 
@@ -75,21 +100,21 @@ const InvestorsPage = () => {
                                         <tbody>
                                         <tr>
                                             <td><b>Trading Symbols:</b></td>
-                                            <td><b>TSXV</b>: <b>QGR</b> (<b>OTC</b>: Applied, <b>FRA</b>: QX9G)</td>
+                                            <td><b>TSXV</b>: <b>QGR</b> (<b>OTC</b>: Applied)</td>
                                             <td><b>Total Shares (all classes):</b></td>
                                             <td>61,659,739</td>
                                         </tr>
                                         <tr>
                                             <td><b>CUSIP:</b></td>
                                             <td>747269</td>
-                                            <td></td>
-                                            <td></td>
+                                            <td><b>Options:</b></td>
+                                            <td>5,150,000</td>
                                         </tr>
                                         <tr>
                                             <td><b>ISIN:</b></td>
                                             <td>CA7472694057</td>
-                                            <td></td>
-                                            <td></td>
+                                            <td><b>Warrants:</b></td>
+                                            <td>3,106,522</td>
                                         </tr>
                                         <tr>
                                             <td><b>Date/Place of Formation:</b></td>
@@ -133,7 +158,8 @@ const InvestorsPage = () => {
             </section>
             <Footer/>
         </div>
-    );
+    )
+        ;
 };
 
 export default InvestorsPage;

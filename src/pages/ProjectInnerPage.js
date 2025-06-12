@@ -15,7 +15,7 @@ const ProjectInnerPage = () => {
             <section className="project-inner-page">
 
                 <section className="project-banner text-center text-white"
-                         style={{backgroundImage: "url('/images/banner1.png')"}}>
+                         style={{backgroundImage: "url('/images/mine-project-new.png')"}}>
                     <Container>
 
 
@@ -26,7 +26,39 @@ const ProjectInnerPage = () => {
                 </section>
                 <Container>
                     <div className="py-3">
-                        <p>Advanced exploration project in premier mining district in Mine Centre, Ontario, with past
+                        <Row className="align-items-center">
+                            <Col md={6}>
+                                <img className=" pb-5" src="/images/mine-map.png" alt="map"/>
+                            </Col>
+                            <Col md={6}>
+                                <ul className="py-3">
+                                    <li>
+                                        <img src="/images/arrow.svg" alt="arrow" />
+                                        <p>
+                                            Development project in Mine Centre, Ontario with exploration program along the prolific
+                                            Quetico Fault Zone
+                                        </p>
+
+                                    </li>
+                                    <li>
+                                        <img src="/images/arrow.svg" alt="arrow" />
+                                       <p>
+                                           Expand known gold and silver veins of the historic production sites at Foley and
+                                           Mackenzie shafts
+                                       </p>
+                                    </li>
+                                    <li>
+                                        <img src="/images/arrow.svg" alt="arrow" />
+                                        <p>
+                                            Proximity to two major gold discoveries 95 km on either side of Mine Centre
+                                        </p>
+                                    </li>
+                                </ul>
+                            </Col>
+                        </Row>
+
+                        <p>
+                            Advanced exploration project in premier mining district in Mine Centre, Ontario, with past
                             producing gold and silver mine with exploration program in place to organically grow
                             targets. Expand known gold and silver veins of the historic production sites at Foley and
                             Mackenzie shafts. Previous diamond drilling between 2005-2012 established the Foley Gold
@@ -35,26 +67,29 @@ const ProjectInnerPage = () => {
                             close proximity to multi-million ounce gold and silver projects operated by New Gold (Rainy
                             River) and Agnico Eagle (Hammond reef) with favourable logistics and immediate access 250 km
                             NW of Thunder Bay, and 65 km NE of the US border.
+
                         </p>
-                        <iframe
+
+                        {/* <iframe
                             src="https://www.google.com/maps/d/embed?mid=1YLCMiQiVAmC0aCe_K4arNPiz1hLFMzE&ehbc=2E312F"
-                            width="700" height="480"></iframe>
+                            width="700" height="480"></iframe>*/}
+
 
                         <table>
                             <thead>
                             <tr>
-                                <th >Site</th>
+                                <th>Site</th>
 
                                 <th>Drill Hole</th>
-                                <th >Grade</th>
-                                <th >Length</th>
+                                <th>Grade</th>
+                                <th>Length</th>
                             </tr>
 
                             </thead>
                             <tbody>
                             <tr>
                                 <td>Foley</td>
-                                <td>Hole Q-05-08 </td>
+                                <td>Hole Q-05-08</td>
                                 <td>53.47 g/t Au</td>
                                 <td>Over 1.5 m</td>
                             </tr>
