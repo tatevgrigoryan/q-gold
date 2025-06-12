@@ -143,6 +143,7 @@ h6.big-gap {
 .navbar .navbar-nav a {
   font-size: 18px;
   color: #ffffff;
+  margin: 0 25px;
 }
 .navbar .navbar-nav a:hover {
   color: #d2b521;
@@ -162,10 +163,6 @@ h6.big-gap {
 }
 .navbar .navbar-nav .nav-link.active {
   color: #d2b521;
-}
-.navbar .container {
-  max-width: 920px;
-  margin: 0 auto;
 }
 
 .hero-section {
