@@ -68,7 +68,9 @@ h3 {
   color: #595959;
   text-transform: uppercase;
   padding-bottom: 20px;
-
+  @media only screen and (max-width: 600px) {
+    font-size: 25px;
+  }
   &:after {
     color: #d2b521;
     content: "";
@@ -461,6 +463,9 @@ h6 {
     }
     &.presentation {
       margin: 0 30px;
+      @media only screen and (max-width: 600px) {
+        margin: 0;
+      }
     }
 
     &:hover {

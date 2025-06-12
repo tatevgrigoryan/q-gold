@@ -71,6 +71,11 @@ h3 {
   text-transform: uppercase;
   padding-bottom: 20px;
 }
+@media only screen and (max-width: 600px) {
+  h3 {
+    font-size: 25px;
+  }
+}
 h3:after {
   color: #d2b521;
   content: "";
@@ -400,6 +405,11 @@ h6.big-gap {
 }
 .journal-section img.presentation {
   margin: 0 30px;
+}
+@media only screen and (max-width: 600px) {
+  .journal-section img.presentation {
+    margin: 0;
+  }
 }
 .journal-section img:hover {
   box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
