@@ -166,13 +166,25 @@ h6.big-gap {
 }
 
 .hero-section {
+  position: relative;
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
   background-size: cover;
   background-position: center;
   color: #595959;
-  height: 80vh;
+  height: 90vh;
+}
+@media only screen and (max-width: 750px) {
+  .hero-section {
+    height: 1300px;
+  }
+}
+.hero-section .delayed-animate-list {
+  padding-left: 5rem;
+}
+.hero-section h4, .hero-section h6, .hero-section li p {
+  font-weight: bolder;
 }
 .hero-section ul li {
   opacity: 0;
@@ -190,7 +202,7 @@ h6.big-gap {
 }
 @media only screen and (max-width: 750px) {
   .hero-section ul {
-    display: none;
+    padding: 0;
   }
 }
 .hero-section ul li {
@@ -255,7 +267,7 @@ h6.big-gap {
 .projects-section .overlay, .explore-section .overlay {
   position: absolute;
   padding: 20px;
-  padding-top: 58%;
+  height: 100% !important;
   color: #fff;
   width: 100%;
   text-align: left;
@@ -264,6 +276,7 @@ h6.big-gap {
   font-size: 1.3rem;
   font-weight: bold;
   margin-bottom: 20px;
+  padding-top: 11rem;
 }
 .projects-section .read-more-btn, .explore-section .read-more-btn {
   display: inline-flex;
@@ -301,6 +314,9 @@ h6.big-gap {
 .explore-section {
   background-color: #ffffff;
   min-height: 350px;
+}
+.explore-section .project-title {
+  padding-top: 13rem;
 }
 
 .news-section {
@@ -777,7 +793,7 @@ button:hover {
   padding: 30px 0;
 }
 .footer p {
-  font-size: 14px;
+  font-size: 13px;
 }
 @media only screen and (max-width: 600px) {
   .footer p {
@@ -785,7 +801,7 @@ button:hover {
   }
 }
 .footer a {
-  font-size: 14px;
+  font-size: 13px;
   color: #ffffff;
   text-decoration: none;
 }
@@ -793,7 +809,7 @@ button:hover {
   color: #d2b521;
 }
 .footer img {
-  max-width: 65px;
+  max-width: 75px;
 }
 .footer h4 {
   margin-top: 0;

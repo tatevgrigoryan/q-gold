@@ -3,7 +3,7 @@ import {Carousel, Col, Container, Row} from 'react-bootstrap';
 
 const HeroSection = () => {
     return (
-        <div className="hero-section" style={{backgroundImage: "url('/images/home-banner-new.png')"}}>
+        <div className="hero-section " style={{backgroundImage: "url('/images/home-banner-new.png')"}}>
             <Container  className="d-flex flex-column  align-items-center h-100 text-white ">
                 <Row className="justify-content-between align-content-start pt-5 ">
                     <Col md={6}>

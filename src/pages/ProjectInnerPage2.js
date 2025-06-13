@@ -97,7 +97,7 @@ const ProjectInnerPage2 = () => {
                             width="100%" height="480"></iframe>*/}
 
                         <h3 className="mt-5 pt-5">Critical components of Quartz Mountain:</h3>
-                        <img className="middle-img" src="/images/image-quartz.png" alt="image"/>
+                        <img className="middle-img" src="/images/quartz-image.png" alt="image"/>
                         <h5 className="pt-5">Crone Hill:</h5>
                         <h4 className="text-center pt-5">Quartz Mountain – Crone Hill – Mineral Resources<br/> Pit
                             Constrained</h4>
@@ -290,7 +290,7 @@ const ProjectInnerPage2 = () => {
                                 </tbody>
                             </table>
                         </div>
-                        <h5 className="py-5">Angels Camp:</h5>
+                        <h5 className="py-5">Angel's Camp:</h5>
                         <img className="middle-img" src="/images/table3.png" alt="image"/>
 
                         <h4 className="text-center pt-5">Quartz Mountain – Angel’s Camp – Preliminary “in situ” Mineral
