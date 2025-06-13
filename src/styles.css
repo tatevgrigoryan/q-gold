@@ -147,6 +147,7 @@ h6.big-gap {
 }
 .navbar .navbar-nav a:hover {
   color: #d2b521;
+  background-color: transparent;
 }
 .navbar .dropdown-menu {
   background-color: #0b1c3b;
