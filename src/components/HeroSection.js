@@ -11,8 +11,8 @@ const HeroSection = () => {
                             Resources</h2>
                         <h4 className=" animate__animated animate__slideInUp">
                             America’s Next Tier 1 Gold Developer <br/>
-                            A transformational Tier-One U.S. Gold Asset <br/>
-                            A high Grade Canadian Past Producer
+                            A Transformational Tier-One U.S. Gold Asset <br/>
+                            A High Grade Canadian Past Producer
                         </h4>
                         <h6 className=" animate__animated animate__slideInUp">G-Gold Resources is advancing a dual-asset gold platform focused on
                             near-term growth and domestic gold production. With a

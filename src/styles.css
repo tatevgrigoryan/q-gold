@@ -186,6 +186,9 @@ h6.big-gap {
 .hero-section h4, .hero-section h6, .hero-section li p {
   font-weight: bolder;
 }
+.hero-section h2 {
+  color: #d2b521;
+}
 .hero-section ul li {
   opacity: 0;
   animation: slideInLeft 1s ease-out forwards;
