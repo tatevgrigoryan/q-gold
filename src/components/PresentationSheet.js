@@ -10,7 +10,7 @@ function PresentationSheet() {
                     {/* Presentation */}
                     <Col xs={12} md="auto" className="d-flex align-items-center justify-content-center">
                         <a href="/coming-soon">
-                        <h3 className="mb-3">PRESENTATION</h3>
+                        <h3 className="mt-3 mb-3">PRESENTATION</h3>
                         </a>
                         <i className="fas fa-arrow-circle-right d-block mb-3"></i>
                         <a href="/coming-soon">
@@ -41,7 +41,7 @@ function PresentationSheet() {
                         </a>
                         <i className="fas fa-arrow-circle-left d-block mt-3"></i>
                         <a href="/coming-soon">
-                        <h3 className="mt-3">FACT SHEET</h3>
+                        <h3 className="mt-3 mb-3">FACT SHEET</h3>
                         </a>
                     </Col>
 
