@@ -184,6 +184,11 @@ h6.big-gap {
 .hero-section .delayed-animate-list {
   padding-left: 5rem;
 }
+@media only screen and (max-width: 750px) {
+  .hero-section .delayed-animate-list {
+    padding-left: 0;
+  }
+}
 .hero-section h4, .hero-section h6, .hero-section li p {
   font-weight: bolder;
 }
@@ -394,6 +399,12 @@ h6.big-gap {
   color: #ffffff;
   padding: 0 30px;
 }
+@media only screen and (max-width: 450px) {
+  .journal-section h3 {
+    padding: 0 10px;
+    font-size: 20px;
+  }
+}
 .journal-section h3:hover {
   color: #d2b521;
 }
@@ -405,8 +416,18 @@ h6.big-gap {
   transition: 0.7s;
   max-width: 100px;
 }
+@media only screen and (max-width: 450px) {
+  .journal-section img {
+    max-width: 60px;
+  }
+}
 .journal-section img.factsheet {
   max-width: 86px;
+}
+@media only screen and (max-width: 450px) {
+  .journal-section img.factsheet {
+    max-width: 45px;
+  }
 }
 .journal-section img.presentation {
   margin: 0 30px;
@@ -452,6 +473,7 @@ h6.big-gap {
 @media only screen and (max-width: 600px) {
   .project-inner-page .project-banner h2 {
     font-size: 40px;
+    line-height: 45px;
   }
 }
 .project-inner-page ul {
@@ -524,6 +546,7 @@ h6.big-gap {
 @media only screen and (max-width: 600px) {
   .news-inner-page .news-banner h2 {
     font-size: 40px;
+    line-height: 45px;
   }
 }
 .news-inner-page .news-inner-wrapper {
@@ -604,6 +627,7 @@ h6.big-gap {
 @media only screen and (max-width: 600px) {
   .company-page-banner h2 {
     font-size: 40px;
+    line-height: 45px;
   }
 }
 .company-page-content {
@@ -622,6 +646,12 @@ h6.big-gap {
   font-weight: 900;
   font-size: 90px;
   line-height: 95px;
+}
+@media only screen and (max-width: 745px) {
+  .investor-page-banner h2 {
+    font-size: 40px;
+    line-height: 45px;
+  }
 }
 .investor-page-table {
   padding-top: 90px;
@@ -665,6 +695,11 @@ h6.big-gap {
 .investor-page .profile-cap-table thead .no-border th {
   border: none;
   padding-bottom: 0;
+}
+@media only screen and (max-width: 745px) {
+  .investor-page h3 {
+    font-size: 16px;
+  }
 }
 
 .company-page-content.slide-up {

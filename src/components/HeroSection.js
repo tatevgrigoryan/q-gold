@@ -14,7 +14,7 @@ const HeroSection = () => {
                             A Transformational Tier-One U.S. Gold Asset <br/>
                             A High Grade Canadian Past Producer
                         </h4>
-                        <h6 className=" animate__animated animate__slideInUp pt-5">G-Gold Resources is advancing a dual-asset gold platform focused on
+                        <h6 className=" animate__animated animate__slideInUp pt-md-5">Q-Gold Resources is advancing a dual-asset gold platform focused on
                             near-term growth and domestic gold production. With a
                             transformational U.S. acquisition in Oregon and a high-grade,
                             drill-ready project in Ontario, Q-Gold is positioned to become

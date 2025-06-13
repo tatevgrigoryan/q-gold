@@ -195,6 +195,9 @@ h6 {
   }
   .delayed-animate-list {
     padding-left: 5rem;
+    @media only screen and (max-width: 750px) {
+      padding-left: 0;
+    }
   }
   h4, h6, li p {
     font-weight: bolder;
@@ -445,6 +448,10 @@ h6 {
   h3 {
     color: #ffffff;
     padding: 0 30px;
+    @media only screen and (max-width: 450px) {
+      padding: 0 10px;
+      font-size: 20px;
+    }
     &:hover {
       color: #d2b521;
     }
@@ -459,9 +466,14 @@ h6 {
   img {
     transition: 0.7s;
     max-width: 100px;
-
+    @media only screen and (max-width: 450px) {
+      max-width: 60px;
+    }
     &.factsheet {
       max-width: 86px;
+      @media only screen and (max-width: 450px) {
+        max-width: 45px;
+      }
     }
     &.presentation {
       margin: 0 30px;
@@ -511,6 +523,7 @@ h6 {
       line-height: 95px;
       @media only screen and (max-width: 600px) {
         font-size: 40px;
+        line-height: 45px;
       }
     }
   }
@@ -589,6 +602,7 @@ h6 {
       line-height: 95px;
       @media only screen and (max-width: 600px) {
         font-size: 40px;
+        line-height: 45px;
       }
     }
   }
@@ -695,6 +709,7 @@ h6 {
       line-height: 95px;
       @media only screen and (max-width: 600px) {
         font-size: 40px;
+        line-height: 45px;
       }
 
     }
@@ -718,6 +733,10 @@ h6 {
       font-weight: 900;
       font-size: 90px;
       line-height: 95px;
+      @media only screen and (max-width: 745px) {
+        font-size: 40px;
+        line-height: 45px;
+      }
 
     }
   }
@@ -773,6 +792,11 @@ h6 {
   .profile-cap-table thead .no-border th {
     border: none;
     padding-bottom: 0;
+  }
+  h3 {
+    @media only screen and (max-width: 745px) {
+      font-size: 16px;
+    }
   }
 
 

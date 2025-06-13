@@ -89,7 +89,7 @@ const InvestorsPage = () => {
 
                         <div className="investor-page-table">
                             <Row>
-                                <Col md={12}>
+                                <Col md={12} style={{overflow: 'auto'}}>
                                     <table className="profile-cap-table">
                                         <thead>
                                         <tr className="no-border">

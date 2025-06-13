@@ -8,7 +8,7 @@ function PresentationSheet() {
                 <Row className="justify-content-center align-items-center text-center gy-4 flex-wrap">
 
                     {/* Presentation */}
-                    <Col xs={12} md="auto" className="d-flex align-items-center">
+                    <Col xs={12} md="auto" className="d-flex align-items-center justify-content-center">
                         <a href="/coming-soon">
                         <h3 className="mb-3">PRESENTATION</h3>
                         </a>
@@ -31,7 +31,7 @@ function PresentationSheet() {
                     </Col>
 
                     {/* Fact Sheet */}
-                    <Col xs={12} md="auto" className="d-flex align-items-center">
+                    <Col xs={12} md="auto" className="d-flex align-items-center justify-content-center">
                         <a  href="/coming-soon">
                             <img
                                 className="img-fluid factsheet"
