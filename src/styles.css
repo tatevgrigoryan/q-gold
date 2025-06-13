@@ -394,6 +394,9 @@ h6.big-gap {
   color: #ffffff;
   padding: 0 30px;
 }
+.journal-section h3:hover {
+  color: #d2b521;
+}
 .journal-section button {
   border: none;
   background: none;

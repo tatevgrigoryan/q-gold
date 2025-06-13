@@ -445,6 +445,10 @@ h6 {
   h3 {
     color: #ffffff;
     padding: 0 30px;
+    &:hover {
+      color: #d2b521;
+    }
+
   }
 
   button {
