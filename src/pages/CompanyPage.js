@@ -61,7 +61,7 @@ const CompanyPage = () => {
                                 upside</b> and potential for significant resource growth.</p>
 
                         <p>
-                            In Canada, Q-Gold holds a significant land position at Mine Centre, Ontario, anchored by the
+                            In Canada, Q-Gold holds a significant land position at <b>Mine Centre, Ontario,</b> anchored by the
                             historically productive Foley Mine. The project features high-grade gold intercepts, mapped
                             quartz vein systems, and a fully permitted drill program targeting near-surface resource
                             expansion.

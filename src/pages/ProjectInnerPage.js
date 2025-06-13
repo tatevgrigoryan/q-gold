@@ -15,7 +15,7 @@ const ProjectInnerPage = () => {
             <section className="project-inner-page">
 
                 <section className="project-banner text-center text-white"
-                         style={{backgroundImage: "url('/images/mine-project-new.png')"}}>
+                         style={{backgroundImage: "url('/images/mine-center-banner-new.png')"}}>
                     <Container>
 
 
@@ -75,9 +75,13 @@ const ProjectInnerPage = () => {
                             width="700" height="480"></iframe>*/}
 
 
-                        <table>
+                        <table className="project-custom-table">
                             <thead>
-                            <tr>
+                                <tr  className="first-head">
+                                    <th colSpan={4}>HIGHLIGHTS</th>
+
+                                </tr>
+                            <tr className="second-head">
                                 <th>Site</th>
 
                                 <th>Drill Hole</th>
@@ -90,31 +94,31 @@ const ProjectInnerPage = () => {
                             <tr>
                                 <td>Foley</td>
                                 <td>Hole Q-05-08</td>
-                                <td>53.47 g/t Au</td>
+                                <td className="bold">53.47 g/t  Au</td>
                                 <td>Over 1.5 m</td>
                             </tr>
                             <tr>
                                 <td>Foley</td>
                                 <td>Hole Q-BV-10-1</td>
-                                <td>106.7/gt Au</td>
+                                <td className="bold">106.7/gt  Au</td>
                                 <td>Over 0.23 m</td>
                             </tr>
                             <tr>
                                 <td>Foley</td>
                                 <td>Hole Q-BV-12-06</td>
-                                <td>33.38 g/t Au</td>
+                                <td className="bold">33.38 g/t  Au</td>
                                 <td>Over 1.05 m</td>
                             </tr>
                             <tr>
                                 <td>McKenzie</td>
                                 <td>Hole QMG09-04</td>
-                                <td>11.39 g/t Au</td>
+                                <td className="bold">11.39 g/t  Au</td>
                                 <td>Over 5.5 m</td>
                             </tr>
                             <tr>
                                 <td>McKenzie</td>
                                 <td>Hole QMG09-05</td>
-                                <td>16.69 g/t Au</td>
+                                <td className="bold">16.69 g/t Au</td>
                                 <td>Over 9.32 m</td>
                             </tr>
                             </tbody>

@@ -36,7 +36,7 @@ function HeroSection() {
                                 >
                                     {<Container
                                         className="d-flex flex-column  align-items-center h-100 text-white ">
-                                        <Row className="justify-content-between align-content-start pt-5 mt-5">
+                                        <Row className="justify-content-between align-content-start pt-5 ">
                                             <Col md={6}>
                                                 <h2 className={` animate__animated ${index === idx ? 'animate__slideInUp' : ''}`}>Q-Gold
                                                     Resources</h2>

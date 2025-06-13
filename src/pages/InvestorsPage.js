@@ -79,7 +79,7 @@ const InvestorsPage = () => {
                                 <p>
                                     <b>Clear Re-Rating Potential</b> <br/>
                                     Advancing a significant U.S. gold asset with heap leach potential provides a
-                                    near-term pathway from junior explorer to America’s Next Tier 1 Gold Developer.
+                                    near-term pathway from junior explorer to <b>America’s Next Tier 1 Gold Developer.</b>
 
                                 </p>
                             </li>

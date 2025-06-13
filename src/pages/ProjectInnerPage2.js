@@ -290,9 +290,9 @@ const ProjectInnerPage2 = () => {
                                 </tbody>
                             </table>
                         </div>
-
+                        <h5 className="py-5">Angels Camp:</h5>
                         <img className="middle-img" src="/images/table3.png" alt="image"/>
-                        <h5 className="pt-5">Angels Camp:</h5>
+
                         <h4 className="text-center pt-5">Quartz Mountain – Angel’s Camp – Preliminary “in situ” Mineral
                             Resource</h4>
                         <div className="table-wrapper">

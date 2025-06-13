@@ -197,9 +197,10 @@ const LegalContent = () => {
                         may
                         differ materially from those expressed or implied by such forward-looking statements.
                     </p>
+                    <h4>Cautionary Notes to U.S. Investors Concerning Reserve and Resource Estimates</h4>
 
                     <p>
-                        Cautionary Notes to U.S. Investors Concerning Reserve and Resource Estimates
+
                         Q-Gold has prepared disclosure in accordance with Canadian reporting standards, which differ
                         from
                         the requirements of the U.S. Securities and Exchange Commission. Accordingly, information
