@@ -37,7 +37,7 @@ const CompanyPage = () => {
                 </section>
                 <section ref={ref} className={` animate pt-5 ${inView ? 'slide-up' : ''}`}>
                     <Container>
-                        <h3 className="pt-2">Q-Gold Resources </h3>
+                        <h3 className="pt-2">About Us </h3>
                         <p>
                             <b> Q-Gold Resources Ltd.</b> is a North American gold exploration and development company
                             advancing a

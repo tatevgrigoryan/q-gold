@@ -18,19 +18,53 @@ function AboutSection() {
 
                 >
                     <div  ref={ref}
-                          className={`animate-about ${inView ? 'slide-up' : ''}`}>
-                        <h3>Q-Gold Resources</h3>
-                        <p>
-                            <b>Q-Gold Resources</b> is a junior gold and silver mining company focused on advancing two highly
-                            prolific gold projects in North America, with a clear objective of becoming a near-term gold
-                            producer.
-                        </p>
-                        <p>
-                            <b>Q-Gold Resources</b> (TSXV: QGR, OTC: QGLDF, FRA: QX9G) is a publicly traded Canada-based mineral
-                            exploration company targeting high-grade gold and silver discoveries in multiple jurisdictions.
-                            Q-Gold is currently exploring for gold at the past-producing Foley Gold Mine in Mine Centre,
-                            Ontario and for silver at the Surupana Property in the silver-rich altiplano region of Peru.
-                        </p>
+                          className={`animate-about slide-up`}>
+                        <h3>A Dual-Asset Gold Platform Positioned For Significant Growth And Re-Rating Potential</h3>
+                        <ul className="delayed-animate-list space-y-4">
+                            <li className="shadow-lg p-4  bg-white flex items-start gap-3">
+                                <img src="/images/arrow.svg" alt="arrow" className="mt-1" />
+                                <p>
+                                    <strong>U.S. Gold Acquisition</strong> <br />
+                                    1.5Moz Quartz Mountain (44% IRR) with heap leach potential in pro-mining Oregon.
+                                </p>
+                            </li>
+                            <li className="shadow-lg p-4  bg-white flex items-start gap-3">
+                                <img src="/images/arrow.svg" alt="arrow" className="mt-1" />
+                                <p>
+                                    <strong>U.S. Resource Upside</strong> <br />
+                                    Angel’s Camp shows high-grade intercepts and untested anomalies.
+                                </p>
+                            </li>
+                            <li className="shadow-lg p-4  bg-white flex items-start gap-3">
+                                <img src="/images/arrow.svg" alt="arrow" className="mt-1" />
+                                <p>
+                                    <strong>Canadian High-Grade Target</strong> <br />
+                                    Past-producing Mine Centre, fully permitted for 2025 drilling.
+                                </p>
+                            </li>
+                            <li className="shadow-lg p-4  bg-white flex items-start gap-3">
+                                <img src="/images/arrow.svg" alt="arrow" className="mt-1" />
+                                <p>
+                                    <strong>Strategic Permitting Edge</strong> <br />
+                                    Federal land in red county; modeled on Grassy Mountain approval.
+                                </p>
+                            </li>
+                            <li className="shadow-lg p-4  bg-white flex items-start gap-3">
+                                <img src="/images/arrow.svg" alt="arrow" className="mt-1" />
+                                <p>
+                                    <strong>Clear 12-Month Catalysts</strong> <br />
+                                    PEA, 43-101, and drilling across both assets—all funded.
+                                </p>
+                            </li>
+                            <li className="shadow-lg p-4  bg-white flex items-start gap-3">
+                                <img src="/images/arrow.svg" alt="arrow" className="mt-1" />
+                                <p>
+                                    <strong>Scalable Growth Path</strong> <br />
+                                    Targeting 2–4Moz+ and $100M+ valuation.
+                                </p>
+                            </li>
+                        </ul>
+
                     </div>
 
                 </Col>

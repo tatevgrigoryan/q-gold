@@ -20,10 +20,9 @@ const InvestorsPage = () => {
                 </section>
                 <section className="investor-page-content">
                     <Container>
-                        <h3 className="pt-5">A Dual-Asset Gold Platform Positioned for Significant Growth and Re-Rating
-                            Potential</h3>
+                        <h3 className="pt-5">WHY INVEST IN Q-GOLD?</h3>
                         <ul>
-                            <li>
+                            <li className="shadow-lg p-4  rouded-3 bg-white flex items-start gap-3">
                                 <img src="/images/arrow.svg" alt="arrow"/>
                                 <p>
                                     <b>Transformational U.S. Gold Acquisition</b><br/>
@@ -36,7 +35,7 @@ const InvestorsPage = () => {
                                     economics.
                                 </p>
                             </li>
-                            <li>
+                            <li className="shadow-lg p-4   bg-white flex items-start gap-3">
                                 <img src="/images/arrow.svg" alt="arrow"/>
                                 <p>
                                     <b>Tier 1 Jurisdictions – U.S. and Canada</b><br/>
@@ -46,7 +45,7 @@ const InvestorsPage = () => {
 
                                 </p>
                             </li>
-                            <li>
+                            <li className="shadow-lg p-4   bg-white flex items-start gap-3">
                                 <img src="/images/arrow.svg" alt="arrow"/>
                                 <p>
                                     <b>Significant Exploration Upside</b> <br/>
@@ -56,7 +55,7 @@ const InvestorsPage = () => {
 
                                 </p>
                             </li>
-                            <li>
+                            <li className="shadow-lg p-4   bg-white flex items-start gap-3">
                                 <img src="/images/arrow.svg" alt="arrow"/>
                                 <p>
                                     <b>Near-Term Catalysts for Growth</b><br/>
@@ -65,7 +64,7 @@ const InvestorsPage = () => {
                                     flow and resource growth.
                                 </p>
                             </li>
-                            <li>
+                            <li className="shadow-lg  p-4  bg-white flex items-start gap-3">
                                 <img src="/images/arrow.svg" alt="arrow"/>
                                 <p>
                                     <b>Clean Capital Structure & Strategic Backing</b> <br/>
@@ -74,7 +73,7 @@ const InvestorsPage = () => {
 
                                 </p>
                             </li>
-                            <li>
+                            <li className="shadow-lg p-4   bg-white flex items-start gap-3">
                                 <img src="/images/arrow.svg" alt="arrow"/>
                                 <p>
                                     <b>Clear Re-Rating Potential</b> <br/>
@@ -88,60 +87,9 @@ const InvestorsPage = () => {
                         <StockChart/>
 
                         <div className="investor-page-table">
-                            <Row>
+                            <Row className="pb-5">
                                 <Col md={12} style={{overflow: 'auto'}}>
-                                    <table className="profile-cap-table">
-                                        <thead>
-                                        <tr className="no-border">
-                                            <th colSpan={2}><h3>Company Profile</h3></th>
-                                            <th colSpan={2}><h3>Cap Table</h3></th>
-                                        </tr>
-                                        </thead>
-                                        <tbody>
-                                        <tr>
-                                            <td><b>Trading Symbols:</b></td>
-                                            <td><b>TSXV</b>: <b>QGR</b> (<b>OTC</b>: Applied)</td>
-                                            <td><b>Total Shares (all classes):</b></td>
-                                            <td>61,659,739</td>
-                                        </tr>
-                                        <tr>
-                                            <td><b>CUSIP:</b></td>
-                                            <td>747269</td>
-                                            <td><b>Options:</b></td>
-                                            <td>5,150,000</td>
-                                        </tr>
-                                        <tr>
-                                            <td><b>ISIN:</b></td>
-                                            <td>CA7472694057</td>
-                                            <td><b>Warrants:</b></td>
-                                            <td>3,106,522</td>
-                                        </tr>
-                                        <tr>
-                                            <td><b>Date/Place of Formation:</b></td>
-                                            <td>25 Mar 1998, British Columbia, Canada</td>
-                                            <td></td>
-                                            <td></td>
-                                        </tr>
-                                        <tr>
-                                            <td><b>Financial Year End:</b></td>
-                                            <td>Dec 31, fixed</td>
-                                            <td></td>
-                                            <td></td>
-                                        </tr>
-                                        <tr>
-                                            <td><b>Auditors:</b></td>
-                                            <td>McGovern Hurley LLP</td>
-                                            <td></td>
-                                            <td></td>
-                                        </tr>
-                                        <tr>
-                                            <td><b>Transfer Agent:</b></td>
-                                            <td>TSX Trust</td>
-                                            <td></td>
-                                            <td></td>
-                                        </tr>
-                                        </tbody>
-                                    </table>
+                                    <img src="/images/investor-page-image.png" alt="investor-page-image"/>
                                 </Col>
                             </Row>
 

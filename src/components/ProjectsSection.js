@@ -44,6 +44,66 @@ function ProjectsSection() {
                     <div ref={ref} className={`animate ${inView ? 'slide-up' : ''}`}>
                         <h3 className="mb-3">Projects</h3>
                         <Row className="justify-content-center">
+                            <Col md={4}>
+                                <ul>
+                                    <li className="shadow-lg p-4  bg-white flex items-start gap-3">
+                                        <img src="/images/arrow.svg" alt="arrow" className="mt-1" />
+                                        <p>
+                                            <strong>Past-Producing Gold Camp</strong>
+                                        </p>
+                                    </li>
+                                    <li  className="shadow-lg p-4  bg-white flex items-start gap-3">
+                                        <img src="/images/arrow.svg" alt="arrow" className="mt-1" />
+                                        <p>
+                                            <strong>High-Grade Drill Targets</strong>
+                                        </p>
+                                    </li>
+                                    <li  className="shadow-lg p-4  bg-white flex items-start gap-3">
+                                        <img src="/images/arrow.svg" alt="arrow" className="mt-1" />
+                                        <p>
+                                            <strong>Strategic Land Package</strong>
+                                        </p>
+                                    </li>
+                                    <li  className="shadow-lg p-4  bg-white flex items-start gap-3">
+                                        <img src="/images/arrow.svg" alt="arrow" className="mt-1" />
+                                        <p>
+                                            <strong>Flow-Through Funded</strong>
+                                        </p>
+                                    </li>
+                                </ul>
+                            </Col>
+                            <Col md={4}>
+                                <ul className="mb-5">
+
+                                    <li  className="shadow-lg p-4  bg-white flex items-start gap-3">
+                                        <img src="/images/arrow.svg" alt="arrow" className="mt-1" />
+                                        <p>
+                                            <strong>Large, Open-Pittable Resource</strong>
+                                        </p>
+                                    </li>
+                                    <li  className="shadow-lg p-4  bg-white flex items-start gap-3">
+                                        <img src="/images/arrow.svg" alt="arrow" className="mt-1" />
+                                        <p>
+                                            <strong>Heap Leach Starter Project</strong>
+                                        </p>
+                                    </li>
+                                    <li  className="shadow-lg p-4  bg-white flex items-start gap-3">
+                                        <img src="/images/arrow.svg" alt="arrow" className="mt-1" />
+                                        <p>
+                                            <strong>Permitting Advantage</strong>
+                                        </p>
+                                    </li>
+                                    <li  className="shadow-lg p-4  bg-white flex items-start gap-3">
+                                        <img src="/images/arrow.svg" alt="arrow" className="mt-1" />
+                                        <p>
+                                            <strong>Exploration Growth Pipeline</strong>
+                                        </p>
+                                    </li>
+                                </ul>
+                            </Col>
+                        </Row>
+
+                        <Row className="justify-content-center">
                             {projectItems.length === 0 && <p>Loading projects...</p>}
                             {projectItems.map((project) => (
                                 <Col key={project.id} md={4} className="mb-4">

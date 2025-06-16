@@ -28,7 +28,7 @@ const ProjectInnerPage2 = () => {
                             </Col>
                             <Col md={6}>
                                 <ul className="py-3">
-                                    <li>
+                                    <li  className="shadow-lg   bg-white flex items-start gap-3">
                                         <img src="/images/arrow.svg" alt="arrow"/>
                                         <p>
                                             Near surface gold deposit (339,000 oz M&I, 1,147,000 oz inferred) with
@@ -37,14 +37,14 @@ const ProjectInnerPage2 = () => {
                                         </p>
 
                                     </li>
-                                    <li>
+                                    <li  className="shadow-lg   bg-white flex items-start gap-3">
                                         <img src="/images/arrow.svg" alt="arrow"/>
                                         <p>
                                             Resource expansion drilling to begin alongside permit applications with the
                                             State of Oregon
                                         </p>
                                     </li>
-                                    <li>
+                                    <li  className="shadow-lg   bg-white flex items-start gap-3">
                                         <img src="/images/arrow.svg" alt="arrow"/>
                                         <p>
                                             Project located on federal land allowing for a streamlined process for new
@@ -52,7 +52,7 @@ const ProjectInnerPage2 = () => {
 
                                         </p>
                                     </li>
-                                    <li>
+                                    <li  className="shadow-lg   bg-white flex items-start gap-3">
                                         <img src="/images/arrow.svg" alt="arrow"/>
                                         <p>
                                             Trump Executive Order for Fast Track Mineral development including Gold. On
@@ -62,7 +62,7 @@ const ProjectInnerPage2 = () => {
 
                                         </p>
                                     </li>
-                                    <li>
+                                    <li  className="shadow-lg   bg-white flex items-start gap-3">
                                         <img src="/images/arrow.svg" alt="arrow"/>
                                         <p>
                                             Internal Economic Assessment by Alamos yielded positive NAV and 23% IRR at
@@ -70,7 +70,7 @@ const ProjectInnerPage2 = () => {
 
                                         </p>
                                     </li>
-                                    <li>
+                                    <li  className="shadow-lg   bg-white flex items-start gap-3">
                                         <img src="/images/arrow.svg" alt="arrow"/>
                                         <p>
                                             Significant Exploration Upside potential with Angel's Camp satellite deposit

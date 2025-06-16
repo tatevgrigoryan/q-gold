@@ -26,13 +26,13 @@ const ProjectInnerPage = () => {
                 </section>
                 <Container>
                     <div className="py-3">
-                        <Row className="align-items-center">
+                        <Row className="align-items-end mb-5">
                             <Col md={6}>
-                                <img className=" pb-5" src="/images/mine-map.png" alt="map"/>
+                                <img  src="/images/mine-map.png" alt="map"/>
                             </Col>
                             <Col md={6}>
-                                <ul className="py-3">
-                                    <li>
+                                <ul >
+                                    <li className="shadow-lg   bg-white flex items-start gap-3">
                                         <img src="/images/arrow.svg" alt="arrow" />
                                         <p>
                                             Development project in Mine Centre, Ontario with exploration program along the prolific
@@ -40,14 +40,14 @@ const ProjectInnerPage = () => {
                                         </p>
 
                                     </li>
-                                    <li>
+                                    <li className="shadow-lg  bg-white flex items-start gap-3">
                                         <img src="/images/arrow.svg" alt="arrow" />
                                        <p>
                                            Expand known gold and silver veins of the historic production sites at Foley and
                                            Mackenzie shafts
                                        </p>
                                     </li>
-                                    <li>
+                                    <li className="shadow-lg   bg-white flex items-start gap-3">
                                         <img src="/images/arrow.svg" alt="arrow" />
                                         <p>
                                             Proximity to two major gold discoveries 95 km on either side of Mine Centre
@@ -65,7 +65,7 @@ const ProjectInnerPage = () => {
                             Mine as a large deposit of spaced-out gold-bearing veins with an excellent picture of the
                             mine’s gold potential from surface to the 122 m level. Located in premier mining camp in
                             close proximity to multi-million ounce gold and silver projects operated by New Gold (Rainy
-                            River) and Agnico Eagle (Hammond reef) with favourable logistics and immediate access 250 km
+                            River) and Agnico Eagle (Hammond Reef) with favourable logistics and immediate access 250 km
                             NW of Thunder Bay, and 65 km NE of the US border.
 
                         </p>

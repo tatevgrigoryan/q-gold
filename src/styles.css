@@ -174,26 +174,21 @@ h6.big-gap {
   background-size: cover;
   background-position: center;
   color: #595959;
-  height: 90vh;
+  height: 100vh;
 }
 @media only screen and (max-width: 750px) {
   .hero-section {
     height: 1300px;
   }
 }
-.hero-section .delayed-animate-list {
-  padding-left: 5rem;
-}
-@media only screen and (max-width: 750px) {
-  .hero-section .delayed-animate-list {
-    padding-left: 0;
-  }
-}
-.hero-section h4, .hero-section h6, .hero-section li p {
+.hero-section h4, .hero-section li p {
   font-weight: bolder;
 }
 .hero-section h2 {
   color: #d2b521;
+}
+.hero-section h6 {
+  line-height: 25px;
 }
 .hero-section ul li {
   opacity: 0;
@@ -249,6 +244,25 @@ h6.big-gap {
 .about-section {
   min-height: 300px;
 }
+.about-section .delayed-animate-list {
+  padding-left: 0;
+}
+.about-section .delayed-animate-list li {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  padding: 20px 15px;
+  margin-bottom: 10px;
+  border-top: 4px solid #d2b521;
+}
+.about-section .delayed-animate-list li img {
+  max-width: 35px;
+  margin-right: 10px;
+}
+.about-section .delayed-animate-list li p {
+  font-weight: 600;
+  margin: 0;
+}
 
 .projects-section, .explore-section {
   background-color: #e4e4e4;
@@ -263,15 +277,21 @@ h6.big-gap {
   transition: transform 0.3s ease;
   display: flex;
   align-items: flex-end;
+  border: 2px solid #fff;
 }
 .projects-section .project-card .read-more-btn, .explore-section .project-card .read-more-btn {
   cursor: pointer;
 }
 .projects-section .project-card:hover, .explore-section .project-card:hover {
   transform: translateY(-5px);
+  border: 2px solid #d2b521;
 }
 .projects-section .project-card:hover .overlay, .explore-section .project-card:hover .overlay {
   background-color: rgba(0, 0, 0, 0.4);
+}
+.projects-section .project-card:hover .read-more-btn, .explore-section .project-card:hover .read-more-btn {
+  background-color: #d2b521;
+  color: #fff;
 }
 .projects-section .overlay, .explore-section .overlay {
   position: absolute;
@@ -319,6 +339,28 @@ h6.big-gap {
   opacity: 1;
   transform: translateY(0);
 }
+.projects-section ul, .explore-section ul {
+  padding-left: 0;
+}
+.projects-section ul li, .explore-section ul li {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  margin-bottom: 10px;
+  border-top: 4px solid #d2b521;
+}
+.projects-section ul li img, .explore-section ul li img {
+  max-width: 30px;
+  margin-right: 10px;
+}
+.projects-section ul li p, .explore-section ul li p {
+  font-weight: 400;
+  margin: 0;
+}
+
+.projects-section .project-card {
+  border: 2px solid #e4e4e4;
+}
 
 .explore-section {
   background-color: #ffffff;
@@ -358,6 +400,11 @@ h6.big-gap {
 }
 .news-section .news-card:hover {
   transform: translateY(-5px);
+  border: 2px solid #d2b521;
+}
+.news-section .news-card:hover .read-more-btn {
+  background-color: #d2b521;
+  color: #fff;
 }
 .news-section .news-card h5 {
   font-size: 1.2rem;
@@ -483,18 +530,21 @@ h6.big-gap {
   margin: 0;
 }
 .project-inner-page ul li {
+  padding: 15px;
   position: relative;
   margin-bottom: 20px;
   font-size: 16px;
+  border-top: 4px solid #d2b521;
 }
 .project-inner-page ul li img {
   position: absolute;
-  top: 4px;
+  top: 16px;
   max-width: 25px;
   margin-right: 10px;
 }
 .project-inner-page ul li p {
   padding-left: 35px;
+  margin-bottom: 0;
 }
 .project-inner-page .middle-img {
   max-width: 700px;
@@ -601,10 +651,15 @@ h6.big-gap {
 .news-inner-page .news-content h2 {
   color: #001d3d;
   font-size: 38px;
+  text-shadow: none;
 }
 .news-inner-page .news-content h4, .news-inner-page .news-content h5 {
   color: #001d3d;
   margin-top: 20px;
+}
+.news-inner-page .news-content .first-letter {
+  color: #d2b521;
+  font-size: 55px;
 }
 
 .news-page-banner {
@@ -673,6 +728,7 @@ h6.big-gap {
   position: relative;
   margin-bottom: 20px;
   font-size: 16px;
+  border-top: 4px solid #d2b521;
 }
 .investor-page ul li img {
   position: absolute;
