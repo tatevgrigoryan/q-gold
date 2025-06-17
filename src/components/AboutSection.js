@@ -19,7 +19,8 @@ function AboutSection() {
                 >
                     <div  ref={ref}
                           className={`animate-about slide-up`}>
-                        <h3>A Dual-Asset Gold Platform Positioned For Significant Growth And Re-Rating Potential</h3>
+                        <h3>HIGHLIGHTS</h3>
+                        <h4>A Dual-Asset Gold Platform Positioned For Significant Growth And Re-Rating Potential</h4>
                         <ul className="delayed-animate-list space-y-4">
                             <li className="shadow-lg p-4  bg-white flex items-start gap-3">
                                 <img src="/images/arrow.svg" alt="arrow" className="mt-1" />

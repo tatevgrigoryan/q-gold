@@ -9,7 +9,9 @@ function NewsSection() {
     useEffect(() => {
         const fetchNews = async () => {
             try {
-                const res = await axios.get(`${process.env.REACT_APP_BACKEND_API_URL}/api/news?sort=createdAt:desc&pagination[limit]=3&populate=*`);
+                const res = await axios.get(
+                    `${process.env.REACT_APP_BACKEND_API_URL}/api/news?sort[0]=order:asc&sort[1]=createdAt:desc&pagination[limit]=4&populate=*`
+                );
 
                 // Log the response to check the structure
                 console.log(res.data.data);
@@ -22,6 +24,7 @@ function NewsSection() {
                         title: item.Title, // Corrected field access
                         content: item.Content, // Corrected field access
                         date: item.Date,
+                        order: item.Order,
                         category: item.CategoryName || "News", // Corrected field access
                         link: `/news/${item.id}` // Use the slug for the link
                     };
@@ -45,7 +48,7 @@ function NewsSection() {
                         <p>Loading latest news...</p>
                     )}
                     {newsItems.map((news, idx) => (
-                        <Col key={idx} md={4} className="mb-4">
+                        <Col key={idx} md={4} className="mb-4" id={idx}>
                             <div className="news-card">
                                 <div className="news-card-body">
                                     <span className="news-category">{news.category}</span>

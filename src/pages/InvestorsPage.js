@@ -20,7 +20,9 @@ const InvestorsPage = () => {
                 </section>
                 <section className="investor-page-content">
                     <Container>
-                        <h3 className="pt-5">WHY INVEST IN Q-GOLD?</h3>
+                        <h3 className="pt-5 mb-0">WHY INVEST IN Q-GOLD?</h3>
+                        <h4 className="pb-3">A Dual-Asset Gold Platform Positioned for Significant Growth and Re-Rating
+                            Potential</h4>
                         <ul>
                             <li className="shadow-lg p-4  rouded-3 bg-white flex items-start gap-3">
                                 <img src="/images/arrow.svg" alt="arrow"/>

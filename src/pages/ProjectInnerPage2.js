@@ -12,7 +12,7 @@ const ProjectInnerPage2 = () => {
     return (
         <div>
             <CustomNavbar/>
-            <section className="project-inner-page">
+            <section className="project-inner-page quartz">
 
                 <section className="project-banner text-center text-white"
                          style={{backgroundImage: "url('/images/home-banner.png')"}}>
@@ -23,12 +23,12 @@ const ProjectInnerPage2 = () => {
                 <Container>
                     <div className="py-3">
                         <Row className="align-items-center">
-                            <Col md={6}>
+                            <Col md={7}>
                                 <img className=" pb-5" src="/images/quartz-map.png" alt="map"/>
                             </Col>
-                            <Col md={6}>
-                                <ul className="py-3">
-                                    <li  className="shadow-lg   bg-white flex items-start gap-3">
+                            <Col md={5}>
+                                <ul >
+                                    <li  className="shadow-lg   bg-white flex items-start gap-1">
                                         <img src="/images/arrow.svg" alt="arrow"/>
                                         <p>
                                             Near surface gold deposit (339,000 oz M&I, 1,147,000 oz inferred) with
@@ -37,14 +37,14 @@ const ProjectInnerPage2 = () => {
                                         </p>
 
                                     </li>
-                                    <li  className="shadow-lg   bg-white flex items-start gap-3">
+                                    <li  className="shadow-lg   bg-white flex items-start gap-1">
                                         <img src="/images/arrow.svg" alt="arrow"/>
                                         <p>
                                             Resource expansion drilling to begin alongside permit applications with the
                                             State of Oregon
                                         </p>
                                     </li>
-                                    <li  className="shadow-lg   bg-white flex items-start gap-3">
+                                    <li  className="shadow-lg   bg-white flex items-start gap-1">
                                         <img src="/images/arrow.svg" alt="arrow"/>
                                         <p>
                                             Project located on federal land allowing for a streamlined process for new
@@ -52,7 +52,7 @@ const ProjectInnerPage2 = () => {
 
                                         </p>
                                     </li>
-                                    <li  className="shadow-lg   bg-white flex items-start gap-3">
+                                    <li  className="shadow-lg   bg-white flex items-start gap-1">
                                         <img src="/images/arrow.svg" alt="arrow"/>
                                         <p>
                                             Trump Executive Order for Fast Track Mineral development including Gold. On
@@ -62,7 +62,7 @@ const ProjectInnerPage2 = () => {
 
                                         </p>
                                     </li>
-                                    <li  className="shadow-lg   bg-white flex items-start gap-3">
+                                    <li  className="shadow-lg   bg-white flex items-start gap-1">
                                         <img src="/images/arrow.svg" alt="arrow"/>
                                         <p>
                                             Internal Economic Assessment by Alamos yielded positive NAV and 23% IRR at
@@ -70,7 +70,7 @@ const ProjectInnerPage2 = () => {
 
                                         </p>
                                     </li>
-                                    <li  className="shadow-lg   bg-white flex items-start gap-3">
+                                    <li  className="shadow-lg   bg-white flex items-start gap-1">
                                         <img src="/images/arrow.svg" alt="arrow"/>
                                         <p>
                                             Significant Exploration Upside potential with Angel's Camp satellite deposit

@@ -38,9 +38,9 @@ function ExploreSection() {
             link: '/company',
         },
         {
-            title: 'Meet the Team',
+            title: 'Latest News',
             image: '/images/meetTeam.png',
-            link: '/company#team-member',
+            link: '/news',
         },
         {
             title: 'Investor Information',

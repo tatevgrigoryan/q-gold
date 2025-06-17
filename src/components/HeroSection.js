@@ -12,8 +12,8 @@ const HeroSection = () => {
                 <div className="content-overlay">
                     <Container  className="d-flex flex-column  align-items-center h-100 text-white ">
                         <Row className="justify-content-between align-content-start pt-5 ">
-                            <Col md={6}>
-                                <h2 className=" animate__animated animate__slideInUp">Advancing America's Next Tier-One Gold Developer</h2>
+                            <Col md={7}>
+                                <h2 className=" animate__animated animate__slideInUp">Advancing America's Next Tier-One <span className="gold">Gold Developer</span></h2>
 
                                 <h6 className=" animate__animated animate__slideInUp pt-md-5">Q-Gold Resources is advancing a dual-asset gold platform focused on
                                     near-term growth and domestic gold production. With a
