@@ -285,15 +285,16 @@ h6 {
       padding: 20px 15px;
       margin-bottom: 10px;
       border-top: 4px solid #d2b521;
+      min-height: 99px;
 
       img {
         max-width: 35px;
-        margin-right: 10px;
       }
 
       p {
         font-weight: 600;
         margin: 0;
+        font-size: 14px;
       }
     }
   }
