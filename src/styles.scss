@@ -483,7 +483,9 @@ h6 {
 .news-section {
   background-color: #e4e4e4;
   min-height: 350px;
-
+  #news1 {
+    display: none;
+  }
   .news-card {
     position: relative;
     background-color: white;
@@ -761,9 +763,8 @@ h6 {
   .news-inner-latest-wrapper {
     padding-left: 30px;
 
-    #1 {
-      display: none;
-    }
+
+
 
     .latest-news-sidebar {
 

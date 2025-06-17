@@ -48,7 +48,7 @@ function NewsSection() {
                         <p>Loading latest news...</p>
                     )}
                     {newsItems.map((news, idx) => (
-                        <Col key={idx} md={4} className="mb-4" id={idx}>
+                        <Col key={idx} md={4} className="mb-4" id={"news"+ +idx}>
                             <div className="news-card">
                                 <div className="news-card-body">
                                     <span className="news-category">{news.category}</span>
