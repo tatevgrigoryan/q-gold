@@ -194,6 +194,9 @@ h6 {
   height: 100vh;
   @media only screen and (max-width: 750px) {
     height: 1300px;
+    background-image: url('../public/images/home-banner.png');
+    background-repeat: no-repeat;
+    background-position: 11% 0;
   }
 
   h4, li p {
@@ -1179,6 +1182,10 @@ button:hover {
   transform: translate(-50%, -50%);
   z-index: -1;
   object-fit: cover;
+  @media only screen and (max-width: 750px) {
+    display: none;
+
+  }
 }
 
 .content-overlay {

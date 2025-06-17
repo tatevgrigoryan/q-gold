@@ -179,6 +179,9 @@ h6.big-gap {
 @media only screen and (max-width: 750px) {
   .hero-section {
     height: 1300px;
+    background-image: url("../public/images/home-banner.png");
+    background-repeat: no-repeat;
+    background-position: 11% 0;
   }
 }
 .hero-section h4, .hero-section li p {
@@ -1020,6 +1023,11 @@ button:hover {
   transform: translate(-50%, -50%);
   z-index: -1;
   object-fit: cover;
+}
+@media only screen and (max-width: 750px) {
+  .background-video {
+    display: none;
+  }
 }
 
 .content-overlay {
