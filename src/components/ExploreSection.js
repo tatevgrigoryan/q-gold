@@ -38,15 +38,15 @@ function ExploreSection() {
             link: '/company',
         },
         {
-            title: 'Latest News',
-            image: '/images/meetTeam.png',
-            link: '/news',
-        },
-        {
             title: 'Investor Information',
             image: '/images/investor-img.png',
             link: '/investors',
         },
+        {
+            title: 'Latest News',
+            image: '/images/meetTeam.png',
+            link: '/news',
+        }
     ];
 
     return (
