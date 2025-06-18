@@ -56,7 +56,7 @@ h2 {
   font-size: 70px;
   color: #fff;
   @media only screen and (max-width: 600px) {
-    font-size: 40px;
+    font-size: 35px;
   }
 
 }
@@ -193,10 +193,9 @@ h6 {
   color: #595959;
   height: 100vh;
   @media only screen and (max-width: 750px) {
-    height: 1300px;
+    height: 500px;
     background-image: url('../public/images/home-banner.png');
     background-repeat: no-repeat;
-    background-position: 11% 0;
   }
 
   h4, li p {

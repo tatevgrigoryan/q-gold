@@ -58,7 +58,7 @@ h2 {
 }
 @media only screen and (max-width: 600px) {
   h2 {
-    font-size: 40px;
+    font-size: 35px;
   }
 }
 
@@ -178,10 +178,9 @@ h6.big-gap {
 }
 @media only screen and (max-width: 750px) {
   .hero-section {
-    height: 1300px;
+    height: 500px;
     background-image: url("../public/images/home-banner.png");
     background-repeat: no-repeat;
-    background-position: 11% 0;
   }
 }
 .hero-section h4, .hero-section li p {
