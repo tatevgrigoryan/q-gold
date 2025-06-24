@@ -531,7 +531,8 @@ h6.big-gap {
 }
 .journal-section img {
   transition: 0.7s;
-  max-width: 100px;
+  max-width: 200px;
+  margin: 0 auto;
 }
 @media only screen and (max-width: 450px) {
   .journal-section img {
@@ -539,8 +540,8 @@ h6.big-gap {
   }
 }
 .journal-section img.factsheet {
-  max-width: 86px;
-  margin: 0 20px 0 40px;
+  max-width: 100px;
+  margin: 0 auto;
 }
 @media only screen and (max-width: 450px) {
   .journal-section img.factsheet {
@@ -549,9 +550,8 @@ h6.big-gap {
   }
 }
 .journal-section img.presentation {
-  margin: 0 30px;
+  margin: 0 auto;
   text-align: center;
-  margin: 0 20px 0 40px;
 }
 @media only screen and (max-width: 600px) {
   .journal-section img.presentation {
@@ -569,8 +569,15 @@ h6.big-gap {
   background-color: #ffffff;
 }
 .journal-section .fas {
-  font-size: 25px;
+  font-size: 50px;
+  margin: 0 30px;
   color: #d2b521;
+}
+@media only screen and (max-width: 600px) {
+  .journal-section .fas {
+    font-size: 20px;
+    margin: 0 10px;
+  }
 }
 .journal-section .fas.fa-arrow-circle-left {
   padding-left: 20px;

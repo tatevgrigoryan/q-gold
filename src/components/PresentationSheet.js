@@ -26,7 +26,7 @@ function PresentationSheet() {
                     </Col>
 
                     {/* Divider */}
-                    <Col xs="auto" className="d-none d-md-block">
+                    <Col xs="auto" className="d-none d-md-block p-0">
                         <div className="divider mx-3"></div>
                     </Col>
 

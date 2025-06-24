@@ -604,14 +604,15 @@ h6 {
 
   img {
     transition: 0.7s;
-    max-width: 100px;
+    max-width: 200px;
+    margin: 0 auto;
     @media only screen and (max-width: 450px) {
       max-width: 60px;
     }
 
     &.factsheet {
-      max-width: 86px;
-      margin: 0 20px 0 40px;
+      max-width: 100px;
+      margin: 0 auto;
       @media only screen and (max-width: 450px) {
         max-width: 45px;
         margin: 0;
@@ -619,9 +620,8 @@ h6 {
     }
 
     &.presentation {
-      margin: 0 30px;
+      margin: 0 auto;
       text-align: center;
-      margin: 0 20px 0 40px;
       @media only screen and (max-width: 600px) {
         margin: 0 0 0 20px;
       }
@@ -641,10 +641,14 @@ h6 {
   }
 
   .fas {
-    font-size: 25px;
+    font-size: 50px;
+    margin: 0 30px;
     color: #d2b521;
 
-
+    @media only screen and (max-width: 600px) {
+      font-size: 20px;
+      margin: 0 10px;
+    }
     &.fa-arrow-circle-left {
       padding-left: 20px;
     }
