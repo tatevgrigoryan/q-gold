@@ -916,6 +916,9 @@ h6 {
 
   &-table {
     padding-top: 90px;
+    @media only screen and (max-width: 600px) {
+      padding-top: 20px;
+    }
 
     tr, td {
       padding: 6px;

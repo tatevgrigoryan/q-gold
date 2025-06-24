@@ -16,7 +16,7 @@ function PresentationSheet() {
                         <a href="/coming-soon">
                             <img
                                 className="img-fluid presentation"
-                                src="/images/Q.jpg"
+                                src="/images/Q.png"
                                 alt="Presentation"
                             />
                         </a>

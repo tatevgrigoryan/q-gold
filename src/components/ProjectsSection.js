@@ -59,17 +59,6 @@ function ProjectsSection() {
                                     </div>
                                 </div>
                             </Col>
-                            <Col md={3} className="mb-3">
-                                <div className="project-card" style={{backgroundImage: "url(/images/project2.png)"}}>
-                                    <div className="overlay">
-                                        <h4 className="project-title">Quartz Mountain, Oregon, USA</h4>
-
-                                        <a href="/project/quartz-mountain" className="read-more-btn">
-                                            Read More <span className="arrow-icon">➔</span>
-                                        </a>
-                                    </div>
-                                </div>
-                            </Col>
                             <Col md={3} className="mb-3 display-sm-block">
                                 <ul>
                                     <li className="shadow-lg p-3  bg-white flex items-start gap-3">
@@ -99,6 +88,18 @@ function ProjectsSection() {
                                 </ul>
 
                             </Col>
+                            <Col md={3} className="mb-3">
+                                <div className="project-card" style={{backgroundImage: "url(/images/project2.png)"}}>
+                                    <div className="overlay">
+                                        <h4 className="project-title">Quartz Mountain, Oregon, USA</h4>
+
+                                        <a href="/project/quartz-mountain" className="read-more-btn">
+                                            Read More <span className="arrow-icon">➔</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </Col>
+
                             <Col md={3} className="mb-3">
                                 <ul >
 

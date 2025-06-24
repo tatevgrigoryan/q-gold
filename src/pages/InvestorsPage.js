@@ -94,7 +94,7 @@ const InvestorsPage = () => {
                         </Row>
 
                         <div className="investor-page-table">
-                            <Row className="pb-5">
+                            <Row className="pb-md-5">
                                 <Col md={12} style={{overflow: 'auto'}}>
                                     <img src="/images/investor-page-image.png" alt="investor-page-image"/>
                                 </Col>

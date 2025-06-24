@@ -792,6 +792,11 @@ h6.big-gap {
 .investor-page-table {
   padding-top: 90px;
 }
+@media only screen and (max-width: 600px) {
+  .investor-page-table {
+    padding-top: 20px;
+  }
+}
 .investor-page-table tr, .investor-page-table td {
   padding: 6px;
 }

@@ -72,7 +72,7 @@ const CompanyPage = () => {
                             mining-friendly jurisdictions,<b> Q-Gold is on track to become America’s Next Tier-One Gold
                             Developer.</b>
                         </p>
-                        <h4>ESG</h4>
+                        <h3 className="mt-3">ESG</h3>
                         <p>
                             At <b>Q-Gold,</b> we are committed to responsible gold development that delivers long-term value to
                             all stakeholders. We integrate environmental stewardship, transparent governance, and
