@@ -41,7 +41,7 @@ const CompanyPage = () => {
                         <p>
                             <b> Q-Gold Resources Ltd.</b> is a North American gold exploration and development company
                             advancing a
-                            dual-asset platform in Tier 1 jurisdictions. With a high-grade, drill-ready project in
+                            dual-asset platform in Tier-One jurisdictions. With a high-grade, drill-ready project in
                             Ontario
                             and a pending, transformational acquisition in Oregon, Q-Gold is strategically positioned
                             for
@@ -61,15 +61,25 @@ const CompanyPage = () => {
                                 upside</b> and potential for significant resource growth.</p>
 
                         <p>
-                            In Canada, Q-Gold holds a significant land position at <b>Mine Centre, Ontario,</b> anchored by the
+                            In Canada, Q-Gold holds a significant land position at <b>Mine Centre, Ontario,</b> anchored
+                            by the
                             historically productive Foley Mine. The project features high-grade gold intercepts, mapped
                             quartz vein systems, and a fully permitted drill program targeting near-surface resource
                             expansion.
                         </p>
                         <p>
                             Led by a proven management team and advancing projects in two of the world’s most
-                            mining-friendly jurisdictions,<b> Q-Gold is on track to become America’s Next Tier 1 Gold
+                            mining-friendly jurisdictions,<b> Q-Gold is on track to become America’s Next Tier-One Gold
                             Developer.</b>
+                        </p>
+                        <h4>ESG</h4>
+                        <p>
+                            At <b>Q-Gold,</b> we are committed to responsible gold development that delivers long-term value to
+                            all stakeholders. We integrate environmental stewardship, transparent governance, and
+                            respectful community engagement into every stage of our exploration and development
+                            activities. Our mission is to advance high-quality gold assets while minimizing impact,
+                            maximizing opportunity, and contributing positively to the regions where we operate.
+
                         </p>
 
 

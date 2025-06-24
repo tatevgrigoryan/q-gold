@@ -19,7 +19,7 @@ function ProjectsSection() {
                     <div ref={ref} className={`animate ${inView ? 'slide-up' : ''}`}>
                         <h3 className="mb-3">Projects</h3>
                         <Row className="justify-content-center align-items-center">
-                            <Col md={3}>
+                            <Col md={3} className="mb-3 display-md-block">
                                 <ul>
                                     <li className="shadow-lg p-3  bg-white flex items-start gap-3">
                                         <img src="/images/arrow.svg" alt="arrow" className="mt-1"/>
@@ -48,7 +48,7 @@ function ProjectsSection() {
                                 </ul>
 
                             </Col>
-                            <Col md={3}>
+                            <Col md={3} className="mb-3">
                                 <div className="project-card" style={{backgroundImage: "url(/images/project1.png)"}}>
                                     <div className="overlay">
                                         <h4 className="project-title">Mine Centre, Ontario, Canada</h4>
@@ -59,7 +59,7 @@ function ProjectsSection() {
                                     </div>
                                 </div>
                             </Col>
-                            <Col md={3}>
+                            <Col md={3} className="mb-3">
                                 <div className="project-card" style={{backgroundImage: "url(/images/project2.png)"}}>
                                     <div className="overlay">
                                         <h4 className="project-title">Quartz Mountain, Oregon, USA</h4>
@@ -70,7 +70,36 @@ function ProjectsSection() {
                                     </div>
                                 </div>
                             </Col>
-                            <Col md={3}>
+                            <Col md={3} className="mb-3 display-sm-block">
+                                <ul>
+                                    <li className="shadow-lg p-3  bg-white flex items-start gap-3">
+                                        <img src="/images/arrow.svg" alt="arrow" className="mt-1"/>
+                                        <p>
+                                            <strong>Past-Producing Gold Camp</strong>
+                                        </p>
+                                    </li>
+                                    <li className="shadow-lg p-3  bg-white flex items-start gap-3">
+                                        <img src="/images/arrow.svg" alt="arrow" className="mt-1"/>
+                                        <p>
+                                            <strong>High-Grade Drill Targets</strong>
+                                        </p>
+                                    </li>
+                                    <li className="shadow-lg p-3  bg-white flex items-start gap-3">
+                                        <img src="/images/arrow.svg" alt="arrow" className="mt-1"/>
+                                        <p>
+                                            <strong>Strategic Land Package</strong>
+                                        </p>
+                                    </li>
+                                    <li className="shadow-lg p-3  bg-white flex items-start gap-3">
+                                        <img src="/images/arrow.svg" alt="arrow" className="mt-1"/>
+                                        <p>
+                                            <strong>Flow-Through Funded</strong>
+                                        </p>
+                                    </li>
+                                </ul>
+
+                            </Col>
+                            <Col md={3} className="mb-3">
                                 <ul >
 
                                     <li className="shadow-lg p-3  bg-white flex items-start gap-3">

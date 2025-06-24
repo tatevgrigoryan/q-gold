@@ -1,43 +1,41 @@
-import React, { useEffect, useRef, memo } from 'react';
+import { useEffect } from "react";
 
-function TradingViewWidget() {
-    const container = useRef(null);
-
+export default function TradingViewChart() {
     useEffect(() => {
-        // Avoid injecting multiple times
-        if (!container.current.querySelector("script")) {
-            const script = document.createElement("script");
-            script.src = "https://s3.tradingview.com/external-embedding/embed-widget-advanced-chart.js";
-            script.type = "text/javascript";
-            script.async = true;
-            script.innerHTML = `
-            {
-              "autosize": true,
-              "symbol": "TSXV:QGR",
-              "timezone": "Etc/UTC",
-              "theme": "light",
-              "style": "3",
-              "locale": "en",
-              "withdateranges": true,
-              "range": "YTD",
-              "allow_symbol_change": true,
-              "details": true,
-              "support_host": "https://www.tradingview.com"
-            }`;
-            container.current.appendChild(script);
-        }
+        const container = document.getElementById("tradingview-widget");
+        if (!container) return;
+
+        container.innerHTML = ""; // Clear old content
+
+        const widgetDiv = document.createElement("div");
+        widgetDiv.className = "tradingview-widget-container__widget";
+        container.appendChild(widgetDiv);
+
+        const script = document.createElement("script");
+        script.src = "https://s3.tradingview.com/external-embedding/embed-widget-mini-symbol-overview.js";
+        script.async = true;
+        script.innerHTML = JSON.stringify({
+            symbol: "TSXV:QGR",
+            width: "100%",
+            height: "300",
+            locale: "en",
+            dateRange: "12M",
+            colorTheme: "light",
+            trendLineColor: "#c4911a",
+            underLineColor: "#d2b521",
+            isTransparent: false,
+            autosize: true,
+            largeChartUrl: ""
+        });
+
+        container.appendChild(script);
     }, []);
 
     return (
-        <div className="tradingview-widget-container" ref={container} style={{ height: "100%", width: "100%" }}>
-            <div className="tradingview-widget-container__widget" style={{ height: "calc(100% - 32px)", width: "100%" }}></div>
-            <div className="tradingview-widget-copyright">
-                <a href="https://www.tradingview.com/" rel="noopener nofollow" target="_blank">
-                    <span className="blue-text">Track all markets on TradingView</span>
-                </a>
-            </div>
-        </div>
+        <div
+            id="tradingview-widget"
+            className="tradingview-widget-container"
+            style={{ width: "100%", height: "300px" }}
+        />
     );
 }
-
-export default memo(TradingViewWidget);

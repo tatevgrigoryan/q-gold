@@ -37,7 +37,7 @@ const HeroSection = () => {
                                     Q-Gold Resources is advancing a dual-asset gold platform focused on near-term growth and
                                     domestic gold production. With a transformational U.S. acquisition in Oregon and a
                                     high-grade, drill-ready project in Ontario, Q-Gold is positioned to become America’s next
-                                    Tier 1 gold development company.
+                                    Tier-One gold developer.
                                 </h6>
                             </Col>
                         </Row>

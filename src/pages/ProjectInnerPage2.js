@@ -12,7 +12,7 @@ const ProjectInnerPage2 = () => {
     return (
         <div>
             <CustomNavbar/>
-            <section className="project-inner-page quartz">
+            <section className="project-inner-page">
 
                 <section className="project-banner text-center text-white"
                          style={{backgroundImage: "url('/images/home-banner.png')"}}>
@@ -22,74 +22,74 @@ const ProjectInnerPage2 = () => {
                 </section>
                 <Container>
                     <div className="py-3">
-                        <Row className="align-items-center">
-                            <Col md={7}>
-                                <img className=" pb-5" src="/images/quartz-map.png" alt="map"/>
+                        <Row className="align-items-center pb-5">
+                            <Col md={6}>
+                                <img  src="/images/quartz-map.png" alt="map"/>
                             </Col>
-                            <Col md={5}>
-                                <ul >
-                                    <li  className="shadow-lg   bg-white flex items-start gap-1">
+                            <Col md={6}>
+                                <ul>
+                                    <li className="shadow-lg   bg-white flex items-start gap-1">
                                         <img src="/images/arrow.svg" alt="arrow"/>
                                         <p>
-                                            Near surface gold deposit (339,000 oz M&I, 1,147,000 oz inferred) with
-                                            potential open pit heap leach starter operation in Oregon
+                                           <b> 1.49 Moz Gold Resource With Strong Oxide Recovery:</b> Includes 339koz M&I @
+                                            0.87 g/t and 1.15Moz Inferred @ 0.91 g/t with 65–80% oxide and transition
+                                            recoveries.
+
 
                                         </p>
 
                                     </li>
-                                    <li  className="shadow-lg   bg-white flex items-start gap-1">
+                                    <li className="shadow-lg   bg-white flex items-start gap-1">
                                         <img src="/images/arrow.svg" alt="arrow"/>
                                         <p>
-                                            Resource expansion drilling to begin alongside permit applications with the
-                                            State of Oregon
-                                        </p>
-                                    </li>
-                                    <li  className="shadow-lg   bg-white flex items-start gap-1">
-                                        <img src="/images/arrow.svg" alt="arrow"/>
-                                        <p>
-                                            Project located on federal land allowing for a streamlined process for new
-                                            mining projects
+                                            <b>Advanced-Stage Project With Over 100,000 Metres Drilling:</b> Historic and
+                                            recent drilling, including 7,000 metres by Alamos in 2014–15, support a
+                                            large, open gold system.
 
                                         </p>
                                     </li>
-                                    <li  className="shadow-lg   bg-white flex items-start gap-1">
+                                    <li className="shadow-lg   bg-white flex items-start gap-1">
                                         <img src="/images/arrow.svg" alt="arrow"/>
                                         <p>
-                                            Trump Executive Order for Fast Track Mineral development including Gold. On
-                                            Federal lands, in a red county with Paramount Gold’s (NYSE:PZG) Oregon asset
-                                            recently paving the way by securing significant permitting approval
-                                            milestones
+                                           <b> Favourable Permitting on Federal Land in Mining-Friendly County:</b> Located in
+                                            a “red” county in Oregon with streamlined federal permitting and local
+                                            stakeholder support.
+
 
                                         </p>
                                     </li>
-                                    <li  className="shadow-lg   bg-white flex items-start gap-1">
+                                    <li className="shadow-lg   bg-white flex items-start gap-1">
                                         <img src="/images/arrow.svg" alt="arrow"/>
                                         <p>
-                                            Internal Economic Assessment by Alamos yielded positive NAV and 23% IRR at
-                                            1400 gold
+                                            <b> District-Scale Upside at Angel’s Camp and Regional Targets: </b> Angel’s Camp (2
+                                            km from Butte) and other anomalies offer blue-sky potential across a 2,000
+                                            ha land package.
 
                                         </p>
                                     </li>
-                                    <li  className="shadow-lg   bg-white flex items-start gap-1">
-                                        <img src="/images/arrow.svg" alt="arrow"/>
-                                        <p>
-                                            Significant Exploration Upside potential with Angel's Camp satellite deposit
-                                            (2km away) as well as several other similar gold anomalies
 
-                                        </p>
-                                    </li>
 
                                 </ul>
                             </Col>
                         </Row>
 
                         <p>
-                            In the advanced exploration stage, the property consists of 244 mineral claims over ~2000
-                            ha. With ~100k metres of historical drilling, Alamos drilled 7k meters in 2014-2015. Quartz
-                            Mountain boasts 1.5m oz in M&I and Inferred resources (~45% in oxide and transition ore). A
-                            supportive local community and favourable and permitting environment make Quartz Mountain a
-                            pillar of Q-Gold’s growth portfolio. The more significant upside comes from the Angel’s Camp
-                            asset, 9,800 ft east from the Butte deposit.
+                            Large-Scale, Gold Asset in Oregon With Substantial Growth and Re-Rating Potential
+                            Quartz Mountain is an advanced-stage gold project located in Lake County, Oregon, comprising
+                            244 contiguous mineral claims (~2,000 hectares) on federally administered land. With over
+                            100,000 metres of historic drilling and a current NI 43-101 resource of 1.49 Moz gold (M&I +
+                            Inferred), the project presents strong oxide leach potential and scalability.
+                            Alamos Gold drilled 7,000 metres between 2014–2015 and completed an internal economic study
+                            indicating a 23% IRR at $1,400 gold—highlighting robust economics even at conservative
+                            pricing. The resource remains open at depth and along strike. Importantly, the Angel’s Camp
+                            satellite zone, located just 2 km east of the Butte deposit, offers a significant
+                            second-growth center, with mineralized intercepts up to 2.85 g/t over 45.7 metres.
+                            Situated in a federally managed red county, Quartz Mountain benefits from a supportive
+                            permitting regime and recent precedents from companies like Paramount Gold. With drill
+                            permits in progress and expansion targets defined, the project is a strategic pillar of
+                            Q-Gold’s U.S. platform—offering near-term catalysts and long-term optionality in a Tier-One
+                            jurisdiction.
+
 
                         </p>
                         {/* <iframe
