@@ -164,7 +164,6 @@ h6 {
   }
 
   .hover-dropdown:hover .dropdown-menu {
-    display: block;
     margin-top: 0;
   }
 
@@ -1248,6 +1247,22 @@ button:hover {
 
   padding: 2rem;
 }
+.small-txt {
+  p {
+    text-align: left;
+    font-size: 14px;
+    @media only screen and (max-width: 600px) {
+      text-align: center;
+    }
+  }
+  .text-right {
+    text-align: right;
+    @media only screen and (max-width: 600px) {
+      text-align: center;
+    }
+  }
+}
+
 
 #tradingview-widget div:nth-child(2) {
   display: none;

@@ -35,7 +35,8 @@ const ProjectInnerPage = () => {
                                     <li className="shadow-lg   bg-white flex items-start gap-3">
                                         <img src="/images/arrow.svg" alt="arrow"/>
                                         <p>
-                                            <b>High-Grade Gold-Silver System With Expansion Upside:</b> Historic production and
+                                            <b>High-Grade Gold-Silver System With Expansion Upside:</b> Historic
+                                            production and
                                             over 15,000 metres of drilling have confirmed a robust network of steeply
                                             dipping quartz veins at Mine Centre, with open mineralization and
                                             significant potential for resource growth through step-out and infill
@@ -47,7 +48,8 @@ const ProjectInnerPage = () => {
                                     <li className="shadow-lg  bg-white flex items-start gap-3">
                                         <img src="/images/arrow.svg" alt="arrow"/>
                                         <p>
-                                            <b>Tier-One Location With Infrastructure and Nearby Producers:</b> Located in a
+                                            <b>Tier-One Location With Infrastructure and Nearby Producers:</b> Located
+                                            in a
                                             proven Ontario mining district, the project has road access, hydroelectric
                                             power, and sits between two major gold operations — Rainy River (New Gold)
                                             and Hammond Reef (Agnico Eagle).
@@ -57,7 +59,8 @@ const ProjectInnerPage = () => {
                                     <li className="shadow-lg   bg-white flex items-start gap-3">
                                         <img src="/images/arrow.svg" alt="arrow"/>
                                         <p>
-                                           <b> Permitted and Drill-Ready With District-Scale Potential:</b> With an exploration
+                                            <b> Permitted and Drill-Ready With District-Scale Potential:</b> With an
+                                            exploration
                                             permit in place and targets defined, Mine Centre offers near-term drilling
                                             catalysts and long-term upside in an underexplored greenstone belt near the
                                             U.S. border.
@@ -93,55 +96,57 @@ const ProjectInnerPage = () => {
                             src="https://www.google.com/maps/d/embed?mid=1YLCMiQiVAmC0aCe_K4arNPiz1hLFMzE&ehbc=2E312F"
                             width="700" height="480"></iframe>*/}
 
+                        <div style={{ overflowX: "auto", width: "100%" }}>
+                            <table className="project-custom-table">
+                                <thead>
+                                <tr className="first-head">
+                                    <th colSpan={4}>HIGHLIGHTS</th>
 
-                        <table className="project-custom-table">
-                            <thead>
-                            <tr className="first-head">
-                                <th colSpan={4}>HIGHLIGHTS</th>
+                                </tr>
+                                <tr className="second-head">
+                                    <th>Site</th>
 
-                            </tr>
-                            <tr className="second-head">
-                                <th>Site</th>
+                                    <th>Drill Hole</th>
+                                    <th>Grade</th>
+                                    <th>Length</th>
+                                </tr>
 
-                                <th>Drill Hole</th>
-                                <th>Grade</th>
-                                <th>Length</th>
-                            </tr>
+                                </thead>
+                                <tbody>
+                                <tr>
+                                    <td>Foley</td>
+                                    <td>Hole Q-05-08</td>
+                                    <td className="bold">53.47 g/t Au</td>
+                                    <td>Over 1.5 m</td>
+                                </tr>
+                                <tr>
+                                    <td>Foley</td>
+                                    <td>Hole Q-BV-10-1</td>
+                                    <td className="bold">106.7/gt Au</td>
+                                    <td>Over 0.23 m</td>
+                                </tr>
+                                <tr>
+                                    <td>Foley</td>
+                                    <td>Hole Q-BV-12-06</td>
+                                    <td className="bold">33.38 g/t Au</td>
+                                    <td>Over 1.05 m</td>
+                                </tr>
+                                <tr>
+                                    <td>McKenzie</td>
+                                    <td>Hole QMG09-04</td>
+                                    <td className="bold">11.39 g/t Au</td>
+                                    <td>Over 5.5 m</td>
+                                </tr>
+                                <tr>
+                                    <td>McKenzie</td>
+                                    <td>Hole QMG09-05</td>
+                                    <td className="bold">16.69 g/t Au</td>
+                                    <td>Over 9.32 m</td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
 
-                            </thead>
-                            <tbody>
-                            <tr>
-                                <td>Foley</td>
-                                <td>Hole Q-05-08</td>
-                                <td className="bold">53.47 g/t Au</td>
-                                <td>Over 1.5 m</td>
-                            </tr>
-                            <tr>
-                                <td>Foley</td>
-                                <td>Hole Q-BV-10-1</td>
-                                <td className="bold">106.7/gt Au</td>
-                                <td>Over 0.23 m</td>
-                            </tr>
-                            <tr>
-                                <td>Foley</td>
-                                <td>Hole Q-BV-12-06</td>
-                                <td className="bold">33.38 g/t Au</td>
-                                <td>Over 1.05 m</td>
-                            </tr>
-                            <tr>
-                                <td>McKenzie</td>
-                                <td>Hole QMG09-04</td>
-                                <td className="bold">11.39 g/t Au</td>
-                                <td>Over 5.5 m</td>
-                            </tr>
-                            <tr>
-                                <td>McKenzie</td>
-                                <td>Hole QMG09-05</td>
-                                <td className="bold">16.69 g/t Au</td>
-                                <td>Over 9.32 m</td>
-                            </tr>
-                            </tbody>
-                        </table>
                     </div>
                 </Container>
             </section>

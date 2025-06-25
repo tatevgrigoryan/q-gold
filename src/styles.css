@@ -153,7 +153,6 @@ h6.big-gap {
   background-color: #0b1c3b;
 }
 .navbar .hover-dropdown:hover .dropdown-menu {
-  display: block;
   margin-top: 0;
 }
 .navbar .navbar .dropdown-menu {
@@ -1099,6 +1098,24 @@ button:hover {
   z-index: 1;
   color: white;
   padding: 2rem;
+}
+
+.small-txt p {
+  text-align: left;
+  font-size: 14px;
+}
+@media only screen and (max-width: 600px) {
+  .small-txt p {
+    text-align: center;
+  }
+}
+.small-txt .text-right {
+  text-align: right;
+}
+@media only screen and (max-width: 600px) {
+  .small-txt .text-right {
+    text-align: center;
+  }
 }
 
 #tradingview-widget div:nth-child(2) {

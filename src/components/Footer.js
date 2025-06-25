@@ -12,8 +12,8 @@ function Footer() {
                     <Col md={3}>
                         <div>
                             <h4>Address</h4>
-                           <p> Q-Gold Resources Ltd. <br/>
-                               198 Davenport Road, Toronto, ON M5R 1J2</p>
+                            <p> Q-Gold Resources Ltd. <br/>
+                                198 Davenport Road, Toronto, ON M5R 1J2</p>
                         </div>
                     </Col>
                     <Col md={3}>
@@ -29,8 +29,14 @@ function Footer() {
                     </Col>
                 </Row>
 
-                <Row className="text-center d-block pt-3">
-                    © {new Date().getFullYear()} Q-Gold Resources Ltd. All rights reserved.
+                <Row className="justify-content-between d-flex pt-3 small-txt">
+                    <Col md={6}>
+                        <p> © {new Date().getFullYear()} Q-Gold Resources Ltd. All rights reserved.</p>
+                    </Col>
+                    <Col md={6}>
+                        <p className="text-right"> Powered & Protected by <a href="https://www.armadaws.com/" target="_blank">Armada Web
+                            Solutions</a></p>
+                    </Col>
                 </Row>
 
             </Container>
