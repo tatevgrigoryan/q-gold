@@ -450,7 +450,7 @@ h6.big-gap {
   border-bottom: 2px solid #d2b521;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease;
-  min-height: 260px;
+  min-height: 262px;
   margin-bottom: 20px;
 }
 .news-section .news-card .news-category {
