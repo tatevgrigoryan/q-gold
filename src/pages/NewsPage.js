@@ -44,6 +44,18 @@ function NewsPage() {
                 <Container>
                     <h3 className="mb-5">Latest News</h3>
                     <Row>
+                        <Col  md={4} className="mb-4">
+                            <div className="news-card">
+                                <div className="news-card-body">
+                                    <span className="news-category">News</span>
+                                    <h4 className="news-title">Q-Gold Resources Has Commenced the Third Phase of Diamond...</h4>
+                                    <p className="news-date">2025-06-26</p>
+                                    <a href="https://www.juniorminingnetwork.com/junior-miner-news/press-releases/2816-tsx-venture/qgr/182630-q-gold-resources-has-commenced-the-third-phase-of-diamond-drilling-at-the-historic-foley-shaft-area-within-its-mine-centre-project-in-northern-ontario.html" className="read-more-btn">
+                                        Read More <span className="arrow-icon">➔</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </Col>
                         {newsItems.length === 0 && (
                             <p>Loading latest news...</p>
                         )}
