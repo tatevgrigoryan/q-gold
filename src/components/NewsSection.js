@@ -10,7 +10,7 @@ function NewsSection() {
         const fetchNews = async () => {
             try {
                 const res = await axios.get(
-                    `${process.env.REACT_APP_BACKEND_API_URL}/api/news?sort[0]=order:asc&sort[1]=createdAt:desc&pagination[limit]=2&populate=*`
+                    `${process.env.REACT_APP_BACKEND_API_URL}/api/news?sort[0]=order:asc&sort[1]=createdAt:desc&pagination[limit]=3&populate=*`
                 );
 
                 // Log the response to check the structure
